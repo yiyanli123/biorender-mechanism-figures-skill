@@ -1,0 +1,4 @@
+interface:
+  display_name: "BioRender Mechanism Figures"
+  short_description: "Generate publication-style biomedical schematics"
+  default_prompt: "Use $biorender-mechanism-figures to create a polished biomedical mechanism figure prompt."
