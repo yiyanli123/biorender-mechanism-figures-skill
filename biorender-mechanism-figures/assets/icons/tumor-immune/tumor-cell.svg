@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Tumor cell</title>
+  <g id="membrane">
+    <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z"/>
+    <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z"/>
+    <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1"/>
+  </g>
+  <g id="nucleus">
+    <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z"/>
+    <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z"/>
+    <circle cx="75" cy="70" r="8" fill="#c87878"/>
+  </g>
+  <g id="granules" fill="#c87975" opacity=".72">
+    <ellipse cx="24" cy="65" rx="2.5" ry="4"/><circle cx="28" cy="79" r="2.4"/><circle cx="38" cy="88" r="2.1"/><circle cx="48" cy="97" r="2.9"/>
+    <circle cx="84" cy="94" r="2.2"/><circle cx="99" cy="82" r="2.8"/><circle cx="104" cy="60" r="2.6"/><circle cx="91" cy="34" r="2.6"/>
+  </g>
+</svg>

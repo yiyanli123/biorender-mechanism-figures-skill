@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Stethoscope</title>
+  <g id="ear-tubes" fill="none" stroke-linecap="round">
+    <path stroke="#658596" stroke-width="5" d="M28 21c-8 5-10 12-8 23l2 10m31-33c8 5 10 12 8 23l-2 10"/>
+    <path stroke="#94b3be" stroke-width="2" d="M26 25c-5 5-6 10-5 16m34-15c4 4 6 10 5 15"/>
+  </g>
+  <g id="ear-tips" fill="#a0cbd0" stroke="#527482" stroke-width="1.9">
+    <rect x="24" y="16" width="12" height="8" rx="4" transform="rotate(-22 30 20)"/>
+    <rect x="45" y="16" width="12" height="8" rx="4" transform="rotate(22 51 20)"/>
+  </g>
+  <g id="flexible-tubing" fill="none" stroke-linecap="round">
+    <path stroke="#496b77" stroke-width="8" d="M22 51c2 13 7 22 19 22 11 0 17-10 19-22M41 73v14c0 15 11 24 24 24 17 0 28-12 28-29v-8"/>
+    <path stroke="#86b7bc" stroke-width="4" d="M22 51c2 13 7 22 19 22 11 0 17-10 19-22M41 73v14c0 15 11 24 24 24 17 0 28-12 28-29v-8"/>
+  </g>
+  <g id="chestpiece" stroke="#527482" stroke-width="2">
+    <path fill="#9ab8c8" d="M89 68h8v12h-8Z"/>
+    <circle cx="93" cy="57" r="14" fill="#a9c7d4"/>
+    <circle cx="93" cy="57" r="9" fill="#e8f1f3" stroke="#779da9"/>
+    <path fill="none" stroke="#fcffff" stroke-linecap="round" d="M87 56c0-3 2-5 5-5"/>
+  </g>
+</svg>

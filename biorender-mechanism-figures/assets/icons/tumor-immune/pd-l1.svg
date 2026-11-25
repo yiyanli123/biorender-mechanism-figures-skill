@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">PD-L1 ligand</title>
+  <g id="membrane-stalk"><path stroke="#9a691f" stroke-width="12" stroke-linecap="round" d="M11 64h54"/><path stroke="#ecc274" stroke-width="6" stroke-linecap="round" d="M11 64h54"/></g>
+  <g id="ectodomain"><path fill="#e9b765" stroke="#9a691f" stroke-width="4.5" d="M68 47h25c10 0 18 7 18 17s-8 17-18 17H68c-10 0-18-7-18-17s8-17 18-17Z"/><path fill="none" stroke="#fff0c6" stroke-width="4" stroke-linecap="round" d="M65 57h22"/></g>
+</svg>

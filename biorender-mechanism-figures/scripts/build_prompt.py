@@ -62,11 +62,11 @@ Labels to include exactly:
 {bullet_list(labels)}
 
 Visual style:
-Ultra-high-resolution, print-ready, crisp vector-like biomedical illustration,
+Crisp vector-like biomedical illustration,
 clean white or very light neutral background, sharp edges, consistent line weights,
 smooth cellular and molecular shapes, subtle shadows, restrained multi-hue scientific palette,
 clear activation arrows and inhibition bars, generous whitespace, balanced spacing,
-large readable labels, SVG/PDF-ready composition, and journal-review polish.
+large readable labels, and journal-review polish.
 
 Avoid:
 {bullet_list(avoid_items)}
@@ -85,8 +85,7 @@ def main() -> None:
     parser.add_argument(
         "--output-target",
         default=(
-            "SVG/PDF-ready publication figure, or the highest-resolution PNG "
-            "available suitable for 300-600 DPI print at final size"
+            "Raster draft with sharp edges and room for vector annotations"
         ),
     )
     parser.add_argument(

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Reduced cytotoxicity</title>
+  <g id="ring"><circle cx="64" cy="64" r="47" fill="#fff4f2" stroke="#ba6262" stroke-width="7"/></g>
+  <g id="minus"><path fill="none" stroke="#973c45" stroke-width="9" stroke-linecap="round" d="M47 64h34"/></g>
+</svg>

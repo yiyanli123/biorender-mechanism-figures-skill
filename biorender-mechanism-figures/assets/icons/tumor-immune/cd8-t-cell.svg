@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">CD8+ T cell</title>
+  <g id="membrane" stroke="#456d9b" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#cfdef3" d="M64 22c16-2 33 9 39 22 8 15 4 35-8 47-12 14-32 18-48 12-17-6-29-20-29-37 0-22 18-43 39-43Z"/>
+    <path fill="#a1bde0" stroke="none" d="M29 86c16 12 43 16 62 2 11-8 15-19 15-28 3 18-9 36-24 42-19 8-41 1-53-16Z"/>
+    <path fill="none" stroke="#eaf2fe" stroke-linecap="round" d="M28 56c4-13 14-22 25-26"/>
+  </g>
+  <g id="nucleus">
+    <path fill="#789cca" stroke="#496d9f" stroke-width="2" d="M43 56c3-12 16-20 29-17 14 3 23 14 22 27-1 14-12 24-27 25-16 1-28-9-28-23 0-4 2-8 4-12Z"/>
+    <path fill="#9cbae0" d="M46 58c5-11 16-17 27-14 5 1 8 4 11 7-11-4-24-3-38 7Z"/>
+    <circle cx="70" cy="72" r="5" fill="#5f83b3"/>
+  </g>
+  <g id="surface-receptors" fill="none" stroke="#436c9c" stroke-width="3" stroke-linecap="round">
+    <path d="m44 27-4-9m-3 2 6-3m30 5 1-10m-3 0h6m19 22 7-7m-2-2 4 4m2 31 9-1m0-3 1 6M85 101l4 8m-3 2 6-3"/>
+  </g>
+</svg>

@@ -2,17 +2,27 @@
 
 [English](./README.md) | [中文](./README.zh-CN.md)
 
-An Agent Skill for creating BioRender-inspired, publication-quality biomedical mechanism figure prompts for GPT Image models and other image-generation workflows.
+An Agent Skill for drawing original, BioRender-inspired biomedical mechanism figures with editable SVG parts. It can also prepare prompts for GPT Image and other raster workflows.
 
 This project helps agents turn paper paragraphs, hypotheses, pathway descriptions, review topics, or grant ideas into clear scientific schematics: mechanism figures, graphical abstracts, review diagrams, pathway maps, and experimental workflows.
 
 > Not affiliated with BioRender. This skill aims for an original, BioRender-inspired scientific visual language and explicitly avoids copying BioRender assets, templates, logos, or proprietary icons.
 
-## Preview
+## Editable SVG Icons
 
-Example output generated from the tumor immune microenvironment gallery prompt:
+The skill includes 16 general-purpose cell and equipment icons and 14 tumor immunology icons. Each icon has a transparent background and separate vector groups for individual parts.
 
-![Tumor immune microenvironment mechanism figure preview](./assets/tumor-immune-microenvironment-preview.png)
+[![Preview of the 16 biomedical SVG icons](./assets/biomedical-svg-icons-preview.png)](./gallery/icons.md)
+
+[Browse and open the individual SVG files](./gallery/icons.md).
+
+## Editable Mechanism Figure
+
+Tumor immune microenvironment assembled from individual SVG icons. The cells, molecules, arrows, labels, and legend entries can be edited separately.
+
+[![Tumor immune microenvironment mechanism figure preview](./gallery/tumor-immune-microenvironment/preview.png)](./gallery/tumor-immune-microenvironment/figure.svg)
+
+[Editable figure and icon sources](./gallery/examples/tumor-immune-microenvironment.md#editable-figure)
 
 ## Repository Name
 
@@ -22,26 +32,17 @@ Recommended GitHub repository name:
 biorender-mechanism-figures-skill
 ```
 
-## What It Does
+## How Figure Creation Works
 
-- Converts biomedical content into structured image-generation prompts
-- Enforces mechanism-first figure planning: story, compartments, actors, arrows, labels
-- Produces high-resolution, print-ready prompt language by default
-- Encourages SVG/PDF-ready layouts for journal, poster, and slide workflows
-- Includes reusable gallery examples for oncology, neuroscience, microbiome, pharmacology, single-cell methods, and immunology
-- Works as a Codex skill and can be adapted for Claude Code or OpenCode
+1. Identify the required cells, molecules, compartments, and relationships.
+2. Reuse suitable icons and draw missing ones as standalone SVGs.
+3. Assemble `figure.svg` with separately editable icons, arrows, and text, and deliver it with the used `icons/` files.
+
+Installing the complete `biorender-mechanism-figures/` folder includes the icon library and assembly helper. The helper uses Python 3.9+ and runs locally without an image-generation account. For a prompt or raster draft, ask for that output explicitly.
 
 ## Publication-Quality Output
 
-The skill defaults to publication-ready clarity:
-
-- Ultra-high-resolution, print-ready schematic prompts
-- Sharp vector-like edges and consistent line weights
-- Large readable labels and generous whitespace
-- SVG/PDF-ready composition when the image tool supports vector output
-- Highest-resolution PNG fallback for 300-600 DPI print workflows
-
-For journal figures, the recommended workflow is to generate an unlabeled or lightly labeled figure, then add final text in Illustrator, Inkscape, PowerPoint, Affinity Designer, or BioRender. This avoids AI-rendered small-text artifacts and makes the final figure easier to revise.
+For an editable journal figure, assemble an SVG with separate icons, connectors, and text. Keep the SVG source and export vector PDF when the journal requests it. For a raster draft, use the largest suitable native image size and verify its effective PPI at final print dimensions against the journal's artwork requirements. Apply final labels in a separate editable layer when needed.
 
 ## Repository Structure
 
@@ -49,9 +50,10 @@ For journal figures, the recommended workflow is to generate an unlabeled or lig
 .
 ├── biorender-mechanism-figures/
 │   ├── SKILL.md
+│   ├── assets/icons/
 │   ├── agents/openai.yaml
-│   ├── references/visual-language.md
-│   └── scripts/build_prompt.py
+│   ├── references/
+│   └── scripts/                 # SVG assembler and prompt builder
 ├── gallery/
 │   ├── README.md
 │   └── examples/
@@ -69,7 +71,7 @@ rsync -a ./biorender-mechanism-figures/ ~/.codex/skills/biorender-mechanism-figu
 Restart Codex, then invoke:
 
 ```text
-Use $biorender-mechanism-figures to create a publication-ready mechanism figure prompt for ...
+Use $biorender-mechanism-figures to draw a two-panel schematic of intestinal mucus secretion. Deliver the editable SVG figure and the individual icon SVGs.
 ```
 
 ## Use In Claude Code
@@ -135,7 +137,7 @@ python biorender-mechanism-figures/scripts/build_prompt.py \
   --figure-type mechanism \
   --audience "review article" \
   --canvas "landscape 16:9" \
-  --output-target "SVG/PDF-ready publication figure, or 4K+ PNG suitable for 300-600 DPI print" \
+  --output-target "PNG draft with sharp edges and space for vector labels" \
   --elements "tumor cell,hypoxia,HIF-1alpha,M2 macrophage,T cell exhaustion,anti-PD-1 therapy" \
   --flow "Hypoxia stabilizes HIF-1alpha; tumor cells secrete CCL2 and CSF1; monocytes enter tumor; macrophages polarize toward M2; exhausted T cells reduce killing; anti-PD-1 partially restores cytotoxicity" \
   --labels "Hypoxia,HIF-1alpha,CCL2/CSF1,M2 TAM,Exhausted T cell,anti-PD-1"
@@ -146,4 +148,4 @@ python biorender-mechanism-figures/scripts/build_prompt.py \
 - The core skill is portable because it is plain Markdown plus a `SKILL.md` frontmatter block.
 - `scripts/build_prompt.py` is portable anywhere Python 3 is available.
 - `agents/openai.yaml` is Codex-specific UI metadata; other platforms can ignore it.
-- Image generation depends on the platform's available tools. If SVG/PDF export is not directly supported, generate the highest-resolution raster output and convert or rebuild the final figure in a vector editor.
+- Raster generation depends on the platform's image tools. The bundled SVGs open directly in vector editors.

@@ -37,9 +37,9 @@ Create original, publication-ready biomedical schematics with a clean vector-lik
 
 ## Publication-Quality Output
 
-- Request "ultra-high-resolution", "print-ready", "sharp vector-like edges", "large readable labels", "generous whitespace", and "export-quality clarity" in every final-generation prompt.
-- Prefer SVG or PDF when the generation/editing tool supports vector output. Vector output is best for journal figures, posters, slides, and downstream editing.
-- If the image tool only returns raster output, request the highest resolution available and plan for 300-600 DPI at final print size.
+- Keep reusable icons as native SVG paths and shapes. Use separate named groups for meaningful structures such as a nucleus, receptors, a syringe barrel, or a needle. Keep highlights simple enough to remain legible at the final display size.
+- Keep the SVG as the editable master and export vector PDF from it as needed. In mechanism figures, keep each instance, connector, and label in the SVG as a separate editable object.
+- Use the tool's native size and quality settings for raster drafts. Check the actual pixel count at the intended print size against the journal's requirements.
 - For publication submissions, avoid relying on AI-rendered small text. Generate either an unlabeled figure or a lightly labeled figure, then add final text in Illustrator, Inkscape, PowerPoint, Affinity Designer, or BioRender.
 - For SVG/PDF-ready composition, use flat color regions, clean outlines, simple gradients only when necessary, consistent strokes, and separated objects that are easy to trace or redraw.
 - If converting raster to vector, use vector tracing only for simple icon-like regions; manually rebuild arrows, labels, and key shapes when scientific accuracy matters.
@@ -49,7 +49,7 @@ Create original, publication-ready biomedical schematics with a clean vector-lik
 - State the scientific narrative in numbered steps.
 - Name the visual hierarchy: primary pathway, secondary pathway, context cells, readouts.
 - Specify panel titles only when truly needed.
-- Include "ultra-high-resolution, print-ready, crisp vector-like biomedical illustration, clean white background, sharp edges, consistent line weights, subtle shadows, large legible short labels".
+- Include "crisp vector-like biomedical illustration, clean white background, sharp edges, consistent line weights, subtle shadows, large legible short labels".
 - Include negative constraints: "no photorealism, no 3D glossy rendering, no copied commercial icons, no logos, no watermark, no excessive labels, no overlapping arrows".
 
 ## Iteration Checklist

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Syringe</title>
+  <g transform="rotate(47 64 64)" stroke="#456675" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <g id="plunger" fill="#94b7ca">
+      <path d="M60 20h8v18h-8Z"/>
+      <rect x="51" y="14" width="26" height="6" rx="2"/>
+    </g>
+    <g id="barrel" fill="#e7f4f6">
+      <path d="M51 35h26v42l-8 9H59l-8-9Z"/>
+      <rect x="45" y="32" width="38" height="6" rx="2" fill="#a5c6d1"/>
+    </g>
+    <g id="liquid" fill="#8bc8c4" stroke="none">
+      <path d="M54 56c5-2 8-2 12 0 4 2 6 2 8 0v20l-6 7h-8l-6-7Z"/>
+      <path fill="#d4efeb" d="M58 59h3v15h-3Z"/>
+    </g>
+    <g id="graduations" fill="none" stroke-width="1.7">
+      <path d="M69 45h6m-4 7h4m-6 7h6m-4 7h4m-6 7h6"/>
+    </g>
+    <g id="needle">
+      <rect x="59" y="86" width="10" height="9" rx="1.5" fill="#acbcca"/>
+      <path fill="none" stroke="#536979" stroke-width="2.2" d="M64 95v19"/>
+    </g>
+  </g>
+</svg>

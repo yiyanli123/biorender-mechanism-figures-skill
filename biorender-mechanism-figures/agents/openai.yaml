@@ -1,4 +1,4 @@
 interface:
   display_name: "BioRender Mechanism Figures"
-  short_description: "Generate publication-style biomedical schematics"
-  default_prompt: "Use $biorender-mechanism-figures to create a polished biomedical mechanism figure prompt."
+  short_description: "Draw editable biomedical figures from SVG icons"
+  default_prompt: "Use $biorender-mechanism-figures to draw a biomedical mechanism figure from reusable icons and deliver the editable SVG and individual icon files."

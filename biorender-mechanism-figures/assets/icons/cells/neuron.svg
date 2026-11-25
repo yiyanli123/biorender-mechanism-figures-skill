@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Neuron</title>
+  <g id="dendrites" fill="none" stroke="#a76e48" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="4" d="M48 45c-8-5-14-12-22-14-6-2-10-2-15-5m35 23c-12 1-20-1-31 4m41-8c-1-12-9-18-11-33m14 35c1-8 5-14 10-21 3-4 5-9 6-15m-7 40c8-8 18-8 29-14m-48 23c-9 4-19 10-27 9"/>
+    <path stroke-width="2.5" d="M33 34 25 20l-7-4m4 35-5-8m31-19 7-7m14 9 14 1 7-5m0 19 2-10M29 68l-8 10-8 1"/>
+  </g>
+  <g id="axon" fill="none" stroke="#a76e48" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="4.5" d="M62 62c5 11 5 19 15 23 11 5 18 2 25 9 3 3 6 9 9 11"/>
+    <path stroke-width="2.6" d="M105 100c6-1 10-5 13-7m-12 8-4 9 2 6m-3-21 7-5 8 1"/>
+    <circle cx="112" cy="106" r="2.8" fill="#e4a56b"/><circle cx="118" cy="92" r="2.4" fill="#e4a56b"/><circle cx="104" cy="116" r="2.4" fill="#e4a56b"/>
+  </g>
+  <g id="soma">
+    <path fill="#f4c891" stroke="#a76e48" stroke-width="2.5" d="M39 50c6-5 10-13 18-13 9 0 12 8 18 12 3 3 0 6-5 8-5 4-1 11 0 16-5-3-9-7-15-7-7 0-11 3-16 2-4-2 4-7-1-12-3-2-3-3 1-6Z"/>
+    <ellipse cx="55" cy="52" rx="8" ry="8.5" fill="#df9b76" stroke="#a76e57" stroke-width="1.7"/>
+    <circle cx="54" cy="51" r="2.4" fill="#b87765"/>
+  </g>
+  <g id="myelin-segments" fill="none" stroke="#e9bb82" stroke-width="6" stroke-linecap="round">
+    <path d="M66 75q2 5 5 7m5 4q4 2 9 2m6 1q4 1 7 3"/>
+  </g>
+</svg>

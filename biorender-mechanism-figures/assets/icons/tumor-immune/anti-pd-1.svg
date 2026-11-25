@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Anti-PD-1 antibody</title>
+  <g id="heavy-chains" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path stroke="#69496f" stroke-width="12" d="M59 110V64L26 25m43 85V64l33-39"/>
+    <path stroke="#ab7eac" stroke-width="6" d="M59 110V64L26 25m43 85V64l33-39"/>
+  </g>
+  <g id="light-chains" fill="none" stroke="#845a90" stroke-width="6" stroke-linecap="round">
+    <path d="m16 28 26 30m70-30L86 58"/>
+  </g>
+</svg>

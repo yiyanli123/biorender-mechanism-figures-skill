@@ -2,17 +2,27 @@
 
 [English](./README.md) | [中文](./README.zh-CN.md)
 
-这是一个 Agent Skill，用于为 GPT Image 模型和其他图像生成流程创建 BioRender-inspired、出版级清晰度的生物医学机制图 prompt。
+这是一个 Agent Skill，用于绘制由可编辑 SVG 元素组成的原创 BioRender 风格生物医学机制图，也可按需为 GPT Image 等栅格图像工具编写提示词。
 
 它可以帮助智能体把论文段落、科学假设、通路描述、综述主题或基金想法转换成清晰的科学示意图：机制图、图形摘要、综述示意图、通路图和实验流程图。
 
 > 本项目与 BioRender 无从属关系。这个 skill 追求原创的 BioRender-inspired 科学视觉语言，并明确避免复制 BioRender 资产、模板、logo 或专有图标。
 
-## 效果预览
+## 可编辑 SVG 图标
 
-下面的示例图由 gallery 中的肿瘤免疫微环境 prompt 生成：
+Skill 内置 16 枚通用细胞和器材图标，以及 14 枚肿瘤免疫图标。每枚图标均为透明背景，内部部件按矢量对象分组，可以单独编辑。
 
-![肿瘤免疫微环境机制图预览](./assets/tumor-immune-microenvironment-preview.png)
+[![16 枚生物医学 SVG 图标预览](./assets/biomedical-svg-icons-preview.png)](./gallery/icons.md)
+
+[浏览图标目录并打开独立 SVG 文件](./gallery/icons.md)。
+
+## 可编辑机制图
+
+肿瘤免疫微环境图由独立 SVG 图标组装而成。细胞、分子、箭头、标签和图例条目都可以单独编辑。
+
+[![肿瘤免疫微环境机制图预览](./gallery/tumor-immune-microenvironment/preview.png)](./gallery/tumor-immune-microenvironment/figure.svg)
+
+[查看可编辑成图和独立图标](./gallery/examples/tumor-immune-microenvironment.md#editable-figure)
 
 ## 仓库名
 
@@ -22,26 +32,17 @@
 biorender-mechanism-figures-skill
 ```
 
-## 它能做什么
+## 做图流程
 
-- 把生物医学内容转换成结构化图像生成 prompt
-- 强制使用机制优先的构图方式：科学故事、区室、参与者、箭头、标签
-- 默认生成高分辨率、print-ready 的 prompt 描述
-- 鼓励 SVG/PDF-ready 的布局，适合期刊、海报和幻灯片工作流
-- 包含肿瘤学、神经科学、微生物组、药理学、单细胞方法和免疫学示例
-- 可作为 Codex skill 使用，也可迁移到 Claude Code 或 OpenCode
+1. 盘点细胞、分子、区室和机制关系。
+2. 复用合适的图标，把缺少的元素单独画成 SVG。
+3. 组装 `figure.svg`，让图标、箭头和文字都能单独编辑，同时交付使用到的 `icons/` 文件。
+
+完整安装 `biorender-mechanism-figures/` 目录即可获得图标库和组装脚本。脚本使用 Python 3.9+，可在本地运行，无需图像生成账号。需要提示词或栅格草图时，可在请求里指定。
 
 ## 出版级输出
 
-这个 skill 默认追求出版级清晰度：
-
-- 超高分辨率、print-ready 的示意图 prompt
-- 清晰的矢量感边缘和统一线宽
-- 更大的可读标签和充足留白
-- 当图像工具支持时，优先使用 SVG/PDF-ready 构图
-- 如果只能输出 PNG，则使用最高分辨率，并按 300-600 DPI 印刷流程处理
-
-对于期刊图，推荐先生成无标签或轻标签版本，再在 Illustrator、Inkscape、PowerPoint、Affinity Designer 或 BioRender 中添加最终文字。这样可以避免 AI 生成小字不清晰的问题，也方便后续修改。
+需要可编辑的期刊图时，使用 SVG 组装图标、连接线和文字，保留 SVG 源文件，并按期刊要求导出矢量 PDF。生成栅格草图时，选择工具支持的合适原生尺寸上限，并按最终印刷尺寸核对有效 PPI 是否满足期刊要求。需要时，在独立的可编辑图层中加入最终标签。
 
 ## 仓库结构
 
@@ -49,9 +50,10 @@ biorender-mechanism-figures-skill
 .
 ├── biorender-mechanism-figures/
 │   ├── SKILL.md
+│   ├── assets/icons/
 │   ├── agents/openai.yaml
-│   ├── references/visual-language.md
-│   └── scripts/build_prompt.py
+│   ├── references/
+│   └── scripts/                 # SVG 组装脚本与提示词生成脚本
 ├── gallery/
 │   ├── README.md
 │   └── examples/
@@ -66,16 +68,10 @@ biorender-mechanism-figures-skill
 rsync -a ./biorender-mechanism-figures/ ~/.codex/skills/biorender-mechanism-figures/
 ```
 
-重启 Codex，然后这样调用：
+重启 Codex，然后直接提出做图需求。
 
 ```text
-Use $biorender-mechanism-figures to create a publication-ready mechanism figure prompt for ...
-```
-
-中文也可以：
-
-```text
-用 $biorender-mechanism-figures 帮我把这个机制做成出版级清晰度的综述机制图 prompt。
+用 $biorender-mechanism-figures 画一张双面板肠道黏液分泌示意图，交付可编辑的 SVG 成图和独立图标。
 ```
 
 ## 在 Claude Code 中使用
@@ -141,7 +137,7 @@ python biorender-mechanism-figures/scripts/build_prompt.py \
   --figure-type mechanism \
   --audience "review article" \
   --canvas "landscape 16:9" \
-  --output-target "SVG/PDF-ready publication figure, or 4K+ PNG suitable for 300-600 DPI print" \
+  --output-target "PNG draft with sharp edges and space for vector labels" \
   --elements "tumor cell,hypoxia,HIF-1alpha,M2 macrophage,T cell exhaustion,anti-PD-1 therapy" \
   --flow "Hypoxia stabilizes HIF-1alpha; tumor cells secrete CCL2 and CSF1; monocytes enter tumor; macrophages polarize toward M2; exhausted T cells reduce killing; anti-PD-1 partially restores cytotoxicity" \
   --labels "Hypoxia,HIF-1alpha,CCL2/CSF1,M2 TAM,Exhausted T cell,anti-PD-1"
@@ -152,4 +148,4 @@ python biorender-mechanism-figures/scripts/build_prompt.py \
 - 核心 skill 是纯 Markdown 加 `SKILL.md` frontmatter，因此具备跨平台可移植性。
 - `scripts/build_prompt.py` 只需要 Python 3。
 - `agents/openai.yaml` 是 Codex 专用 UI 元数据，其他平台可以忽略。
-- 图像生成能力取决于具体平台。如果不能直接导出 SVG/PDF，就生成最高分辨率栅格图，再在矢量编辑器中转换或重建最终图。
+- 栅格图像生成能力取决于具体平台。内置 SVG 文件可以直接在矢量编辑器中打开。

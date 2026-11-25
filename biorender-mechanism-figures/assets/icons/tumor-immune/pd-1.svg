@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">PD-1 receptor</title>
+  <g id="membrane-stalk"><path stroke="#315a87" stroke-width="12" stroke-linecap="round" d="M11 64h55"/><path stroke="#8caed3" stroke-width="6" stroke-linecap="round" d="M11 64h55"/></g>
+  <g id="ectodomain"><path fill="#729bc8" stroke="#315a87" stroke-width="4.5" stroke-linejoin="round" d="M63 49c5-8 17-12 23-7 4 4 0 9-2 12-4 5-4 15 0 20 2 3 6 8 2 12-6 5-18 1-23-7-6-9-6-21 0-30Z"/><path fill="none" stroke="#c4d8ee" stroke-width="3.5" stroke-linecap="round" d="M66 57c2-4 6-8 11-9"/></g>
+</svg>

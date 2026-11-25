@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Micropipette</title>
+  <g transform="rotate(41 64 64)" stroke="#41677a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <g id="plunger" fill="#73aeaf">
+      <rect x="60" y="14" width="8" height="10" rx="1"/>
+      <rect x="56" y="8" width="16" height="7" rx="2.5"/>
+    </g>
+    <g id="body">
+      <path fill="#c8e0e7" d="M56 22h16c3 0 5 2 5 5v29c0 5-4 9-8 11H59c-5-2-8-6-8-11V27c0-3 2-5 5-5Z"/>
+      <path fill="#84b7c3" d="M51 48h26v8c0 5-4 9-8 11H59c-5-2-8-6-8-11Z"/>
+      <path fill="#90bccc" d="M77 29h8v6l-8 10Z"/>
+      <rect x="58" y="29" width="12" height="13" rx="2" fill="#f4fbfc"/>
+      <path fill="none" stroke="#6f9caa" stroke-width="1.4" d="M61 33h6m-6 4h4"/>
+    </g>
+    <g id="ejector-and-tip">
+      <path fill="#91a9bc" d="M59 67h10l-1 17h-8Z"/>
+      <path fill="#def0ef" d="M59 84h10l-3 21h-4Z"/>
+      <path fill="none" stroke="#7194a5" stroke-width="1.8" d="M64 105v5"/>
+    </g>
+  </g>
+  <g id="droplet">
+    <path fill="#6bc4c7" stroke="#438888" stroke-width="1.7" d="M33 105c2 4 5 8 5 11a5 5 0 0 1-10 0c0-3 3-7 5-11Z"/>
+    <path fill="none" stroke="#ccf1ee" stroke-width="1.4" stroke-linecap="round" d="M31 117v-1"/>
+  </g>
+</svg>

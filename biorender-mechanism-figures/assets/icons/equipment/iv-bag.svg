@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">IV fluid bag</title>
+  <g id="hanger" stroke="#537b86" stroke-width="2.2">
+    <path fill="#ccdee5" fill-rule="evenodd" d="M53 29V17q0-6 6-6h10q6 0 6 6v12ZM60 18q0-2 2-2h4q2 0 2 2v2q0 2-2 2h-4q-2 0-2-2Z"/>
+  </g>
+  <g id="tubing-and-ports" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="none" stroke="#6995a2" stroke-width="3" d="M65 93v10c0 8 5 12 13 12h12q7 0 7-6v-7"/>
+    <rect x="60" y="82" width="10" height="15" rx="2" fill="#9fbdcc" stroke="#537b86" stroke-width="2"/>
+    <rect x="76" y="82" width="7" height="9" rx="1.5" fill="#a9cbd4" stroke="#537b86" stroke-width="2"/>
+    <path fill="#d1e1e8" stroke="#537b86" stroke-width="1.7" d="M94 97h6v7h-6Z"/>
+  </g>
+  <g id="bag-body">
+    <path fill="#e4f2f5" stroke="#537b86" stroke-width="2.5" d="M46 26h36q7 0 8 7l3 42q1 10-8 11H43q-9-1-8-11l3-42q1-7 8-7Z"/>
+    <path fill="#f8fcfd" d="M43 34h3l-2 30h-3Z"/>
+  </g>
+  <g id="fluid">
+    <path fill="#9fcfd1" d="M40 57q12-4 24 0t24-1l1 18q1 8-6 8H45q-7 0-6-7Z"/>
+    <path fill="#c6e8e7" d="M42 62q11-3 22 0t22-1v3q-11 4-22 1t-22 0Z"/>
+  </g>
+  <g id="graduations" fill="none" stroke="#6895a1" stroke-width="1.7" stroke-linecap="round">
+    <path d="M76 39h7m-5 8h5m-7 8h7m-5 8h5m-7 8h7"/>
+  </g>
+</svg>

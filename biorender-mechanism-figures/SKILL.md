@@ -1,15 +1,24 @@
 ---
 name: biorender-mechanism-figures
-description: Create polished biomedical mechanism figures, graphical abstracts, review schematics, pathway diagrams, cell/tissue process illustrations, and publication-quality scientific visuals using GPT Image models or other image-generation tools. Use when the user asks for BioRender-like, BioRender-inspired, high-resolution, print-ready, SVG/PDF-ready, mechanism, review, graphical abstract, pathway, molecular/cellular, immunology, oncology, neuroscience, microbiome, pharmacology, or biology schematic images; when converting a paper paragraph, hypothesis, pathway, or bullet list into a figure prompt; or when refining generated scientific figures for clarity, labeling, and journal-ready composition.
+description: Create original BioRender-inspired mechanism figures, pathway diagrams, graphical abstracts, and review or methods schematics. Use for drawing biomedical figures from reusable editable SVG icons, creating new cell, molecule, tissue, or equipment icons, or preparing an image prompt or raster draft on request.
 ---
 
 # Biorender Mechanism Figures
 
 ## Overview
 
-Use this skill to turn biomedical concepts into publication-ready schematic prompts and iteration plans for GPT Image models. Aim for clean vector-like scientific illustration, not a direct copy of BioRender assets, templates, icons, or branding. Default to print-ready clarity: sharp edges, generous spacing, readable labels, and export paths that can produce SVG/PDF when possible.
+Turn biomedical concepts into original scientific schematics with clear reading order, generous spacing, and legible labels. For a request to make, redraw, or revise a figure, default to delivering an editable SVG assembled from individual native SVG icons. Use the prompt or raster workflow only when the user requests those outputs or explicitly selects a raster image generator.
 
-## Workflow
+## Icon-First Workflow
+
+1. Plan the panels and inventory the distinct elements. Read [the visual guide](references/visual-language.md) for BioRender-inspired composition. For a reference figure, inspect the panels, repeated elements, labels, and directional links before drawing.
+2. Inspect the bundled `assets/icons/` library. Copy suitable icons to an `icons/` subdirectory in the task's output folder. Draw missing icons and variants there as separate, transparent SVGs with named editable parts. Finish the required icon files before assembling the figure. For icon-only requests, deliver those SVG files without composing a figure.
+3. Draw a figure layout and inline the icons. Use [the editable SVG guide](references/editable-figures.md) and bundled `scripts/assemble_svg.py` to generate a self-contained `figure.svg`. Keep each icon instance, arrow, compartment, legend entry, and text label editable on its own. Use a different filename or folder when revising a manually edited figure.
+4. Verify and deliver. Render the final figure when a renderer is available. Inspect scientific directionality, text, alignment, and readability. Test that removing one repeated icon or label in a temporary copy leaves other instances intact. Deliver `figure.svg` and the used standalone `icons/`. Include a PNG preview when available and export vector PDF when requested and supported.
+
+## Prompt and Raster Workflow
+
+Use this workflow for prompt-only or raster requests. Steps 1-3 also inform the figure plan for vector work.
 
 1. Extract the scientific story.
    - Identify the central biological question, system, compartments, actors, causal sequence, and intended audience.
@@ -39,10 +48,10 @@ Use this skill to turn biomedical concepts into publication-ready schematic prom
    - If the user says `image2`, interpret it as the current GPT Image generation model family and check official model availability before hard-coding a model name.
 
 6. Set publication-quality output requirements.
-   - Add `ultra-high-resolution`, `print-ready`, `sharp vector-like edges`, `large readable labels`, `generous whitespace`, and `export-quality clarity` to the prompt by default.
+   - Choose the largest suitable native raster size and quality through the tool's actual settings when available. Request sharp edges, readable labels, and generous spacing in the prompt.
    - Prefer unlabeled or lightly labeled raster generation when the final target is a journal figure, then add final text in Illustrator, Inkscape, PowerPoint, or BioRender to avoid image-model text artifacts.
-   - If the tool supports vector output, request SVG first. If not, generate the highest-resolution PNG available, then trace/rebuild simple shapes as SVG or place the high-resolution PNG into a PDF.
-   - For journal or grant submission, target either editable vector output (`.svg`, `.pdf`) or raster output at 300-600 DPI at final print size.
+   - Verify the delivered pixel dimensions against the journal's requirements at the final print size. Divide the available pixels by the final printed size in inches on each axis to calculate effective PPI. For example, 180 mm wide at 300 PPI requires at least 2,126 pixels in width.
+   - If the user requests editability or a vector PDF, use the editable route above. A PDF or SVG wrapper preserves the resolution and editability limits of embedded raster artwork.
 
 7. Review and iterate.
    - Check scientific accuracy first: compartments, directionality, molecule names, and cell types.
@@ -62,8 +71,8 @@ Layout: <panel count and reading order>.
 Main visual elements: <cells, organs, molecules, pathways, drugs, assays>.
 Mechanism flow: <numbered causal sequence>.
 Labels to include exactly: <short labels>.
-Output target: publication-quality figure; prefer SVG/PDF-ready composition, or ultra-high-resolution PNG suitable for 300-600 DPI print.
-Style: ultra-high-resolution, print-ready, crisp vector-like shapes, sharp edges, soft scientific color palette, subtle shadows, consistent line weight, rounded biological forms, clear arrows, generous whitespace, large readable labels, minimal decorative elements.
+Output target: largest suitable native raster output, with enough pixels for the intended print size.
+Style: crisp vector-like shapes, sharp edges, soft scientific color palette, subtle shadows, consistent line weight, rounded biological forms, clear arrows, generous whitespace, large readable labels, minimal decorative elements.
 Avoid: photorealistic rendering, 3D glossy plastic, brand logos, copied BioRender icons, excessive text, fake tiny labels, crowded arrows, decorative gradients, dark backgrounds.
 ```
 
@@ -77,7 +86,7 @@ python scripts/build_prompt.py \
   --figure-type mechanism \
   --audience "review article" \
   --canvas "landscape 16:9" \
-  --output-target "SVG/PDF-ready publication figure, or 4K+ PNG suitable for 300-600 DPI print" \
+  --output-target "PNG draft with sharp edges and space for vector labels" \
   --elements "tumor cell,hypoxia,HIF-1alpha,M2 macrophage,T cell exhaustion,anti-PD-1 therapy" \
   --flow "Hypoxia stabilizes HIF-1alpha; tumor cells secrete CCL2 and CSF1; monocytes enter tumor; macrophages polarize toward M2; exhausted T cells reduce killing; anti-PD-1 partially restores cytotoxicity" \
   --labels "Hypoxia,HIF-1alpha,CCL2/CSF1,M2 TAM,Exhausted T cell,anti-PD-1"
@@ -88,4 +97,5 @@ The script prints a ready-to-use prompt. Edit the resulting prompt before genera
 ## References
 
 - Read `references/visual-language.md` for visual style, composition, label, output clarity, and iteration rules.
+- Read `references/editable-figures.md` for the icon inventory, workspace layout, assembly helper, and editability checks. Resolve bundled paths relative to this `SKILL.md`.
 - For implementation details of OpenAI image APIs or model names, check current official OpenAI documentation before claiming a specific latest model or parameter.

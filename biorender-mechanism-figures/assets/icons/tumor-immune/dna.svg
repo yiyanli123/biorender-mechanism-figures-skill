@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">DNA double helix</title>
+  <g id="base-pairs" stroke="#a7a2c9" stroke-width="3" stroke-linecap="round">
+    <path d="M22 54v20m9-25v30m9-19v8m12-10v12m10-20v28m10-27v26m11-17v8m10-14v20m11-25v30"/>
+  </g>
+  <g id="backbones" fill="none" stroke-width="4" stroke-linecap="round">
+    <path stroke="#554873" d="M12 80c16 0 16-32 33-32s17 32 34 32 17-32 37-32"/>
+    <path stroke="#815d93" d="M12 48c16 0 16 32 33 32s17-32 34-32 17 32 37 32"/>
+  </g>
+</svg>

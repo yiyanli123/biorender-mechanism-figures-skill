@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Erythrocyte</title>
+  <g id="disc-rim" transform="rotate(-19 64 64)">
+    <path fill="#bd5760" stroke="#923e4d" stroke-width="2.5" d="M16 62c0-18 21-30 48-30s48 12 48 30v8c0 19-21 32-48 32S16 89 16 70Z"/>
+    <ellipse cx="64" cy="62" rx="48" ry="30" fill="#e78486" stroke="#923e4d" stroke-width="2.5"/>
+    <path fill="none" stroke="#f8ac9e" stroke-width="3.5" stroke-linecap="round" d="M24 55c6-11 21-17 36-18m19 2 5 1"/>
+  </g>
+  <g id="central-depression" transform="rotate(-19 64 64)">
+    <path fill="#b9505c" d="M35 59c0-7 13-12 29-12s29 5 29 12c0 10-12 17-29 17-16 0-29-7-29-17Z"/>
+    <path fill="#f5a29b" d="M39 64c4-5 14-8 25-8 12 0 22 3 25 8-5 7-14 11-25 11s-20-4-25-11Z"/>
+    <path fill="#fac0a9" d="M49 66c4-2 10-3 15-3s11 1 15 3c-3 3-9 5-15 5s-12-2-15-5Z"/>
+  </g>
+</svg>

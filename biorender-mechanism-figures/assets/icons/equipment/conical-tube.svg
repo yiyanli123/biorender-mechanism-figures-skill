@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Conical tube</title>
+  <g transform="rotate(-15 64 64)" stroke-linejoin="round">
+    <g id="tube" stroke="#547984" stroke-width="2.5">
+      <path fill="#e3f3f1" d="M47 30h34v50l-15 28q-2 4-4 0L47 80Z"/>
+      <path fill="none" stroke="#fbffff" stroke-width="2.5" stroke-linecap="round" d="M52 38v18"/>
+    </g>
+    <g id="sample">
+      <path fill="#dea18c" d="M50 66c4-3 10-3 14-1s10 2 14-1v15l-14 27-14-27Z"/>
+      <path fill="#efc2aa" d="M51 66c5-3 10-2 14 0s8 1 12-1c-1 5-9 7-14 5-5-2-9-2-12 0Z"/>
+    </g>
+    <g id="graduations" fill="none" stroke="#6b8793" stroke-width="1.7" stroke-linecap="round">
+      <path d="M70 43h7m-5 8h5m-7 8h7m-5 8h5m-7 8h7"/>
+    </g>
+    <g id="cap">
+      <rect x="43" y="18" width="42" height="15" rx="3" fill="#87b9bd" stroke="#547984" stroke-width="2.5"/>
+      <path d="M49 22v6m6-6v6m6-6v6m6-6v6m6-6v6m6-6v6" stroke="#66979f" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

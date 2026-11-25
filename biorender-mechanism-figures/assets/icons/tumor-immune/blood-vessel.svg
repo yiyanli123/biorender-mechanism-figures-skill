@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Branching blood vessel</title>
+  <g id="vessel-wall" fill="none" stroke="#b36867" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 111C36 79 56 70 78 59c11-6 15-15 19-25"/>
+    <path stroke-width="10" d="M39 84c5-13 3-26-6-36-7-8-7-17-6-27m33 47c15 1 25 7 33 3 10-4 16-12 24-11"/>
+    <path stroke-width="6" d="M45 80c14 2 28 13 46 9m-4-33c15 0 21-7 29-17M34 52c-9-1-16-7-22-17"/>
+  </g>
+  <g id="lumen" fill="none" stroke="#eab0a4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 111C36 79 56 70 78 59c11-6 15-15 19-25"/>
+    <path stroke-width="5" d="M39 84c5-13 3-26-6-36-7-8-7-17-6-27m33 47c15 1 25 7 33 3 10-4 16-12 24-11"/>
+    <path stroke-width="3" d="M45 80c14 2 28 13 46 9m-4-33c15 0 21-7 29-17M34 52c-9-1-16-7-22-17"/>
+  </g>
+</svg>

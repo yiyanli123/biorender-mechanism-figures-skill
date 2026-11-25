@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Benchtop centrifuge</title>
+  <g id="housing" stroke="#4f6477" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#7f9aac" d="M28 97h13v9H28Zm59 0h13v9H87Z"/>
+    <path fill="#c9dde6" d="M19 60h90l4 23c1 9-5 16-14 16H29c-9 0-15-7-14-16Z"/>
+    <path fill="#a4c1d1" d="M15 84c0 8 6 15 14 15h70c8 0 14-7 14-15Z"/>
+    <path fill="#ecf5f8" d="M23 50h82l4 11c-1 7-19 12-45 12s-44-5-45-12Z"/>
+  </g>
+  <g id="lid" stroke="#4f6477" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#91b9cc" d="M22 49c0-12 18-28 42-28s42 16 42 28c0 10-18 16-42 16s-42-6-42-16Z"/>
+    <path fill="#bad9e1" stroke="#6b9fb1" stroke-width="1.5" d="M36 46c3-8 15-15 28-15s25 7 28 15c0 7-13 12-28 12s-28-5-28-12Z"/>
+    <path fill="none" stroke="#e9f7f9" stroke-width="2.8" stroke-linecap="round" d="M40 44c4-5 11-8 18-9"/>
+    <path fill="#668698" d="M55 57h18v8H55Z"/>
+  </g>
+  <g id="controls">
+    <rect x="31" y="78" width="27" height="12" rx="3" fill="#547987"/>
+    <path d="M36 84h11m4 0h2" stroke="#b6e3da" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="75" cy="84" r="3.6" fill="#eac181" stroke="#8b745d" stroke-width="1.2"/>
+    <circle cx="89" cy="84" r="3.6" fill="#87beb3" stroke="#507e79" stroke-width="1.2"/>
+  </g>
+</svg>

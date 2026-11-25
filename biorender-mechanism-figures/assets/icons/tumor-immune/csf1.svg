@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">CSF1 signal particle</title>
+  <g id="body"><path fill="#edbf72" stroke="#966329" stroke-width="7" stroke-linejoin="round" d="M59 20q5-3 10 0l37 23q5 3 5 8v26q0 5-5 8l-37 23q-5 3-10 0L22 85q-5-3-5-8V51q0-5 5-8Z"/></g>
+  <g id="highlight"><path fill="none" stroke="#fff2c8" stroke-width="6.5" stroke-linecap="round" d="m36 51 25-15"/></g>
+</svg>

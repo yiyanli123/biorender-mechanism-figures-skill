@@ -1,5 +1,7 @@
 # Gallery
 
+Browse the [editable SVG icon collection](./icons.md) for individual cell and equipment illustrations.
+
 These examples show how `$biorender-mechanism-figures` turns biomedical content into publication-style schematic prompts. The examples are designed for GPT Image models or similar image-generation tools.
 
 | Example | Use Case | Best For |

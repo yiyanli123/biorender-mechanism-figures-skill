@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Neutrophil</title>
+  <g id="membrane">
+    <path fill="#f6e6bb" stroke="#a17b51" stroke-width="2.5" d="M64 16c26 0 48 20 48 47 0 25-20 48-47 49-27 0-49-21-49-47 0-27 22-49 48-49Z"/>
+    <path fill="#eccb90" d="M23 84c13 12 32 17 48 14 17-3 30-14 38-26-4 21-23 37-45 38-17 0-34-11-41-26Z"/>
+    <path fill="none" stroke="#fff6de" stroke-width="3" stroke-linecap="round" d="M27 48c4-11 14-19 25-22"/>
+  </g>
+  <g id="granules" fill="#dca984">
+    <circle cx="38" cy="44" r="2.2"/><circle cx="59" cy="32" r="2.8"/><circle cx="76" cy="29" r="1.9"/><circle cx="89" cy="39" r="2.6"/>
+    <circle cx="98" cy="52" r="2.3"/><circle cx="99" cy="75" r="2.8"/><circle cx="91" cy="89" r="2"/><circle cx="77" cy="96" r="2.6"/>
+    <circle cx="59" cy="99" r="1.9"/><circle cx="44" cy="91" r="2.5"/><circle cx="31" cy="78" r="2.3"/><circle cx="27" cy="62" r="2.5"/>
+    <circle cx="58" cy="77" r="2.2"/><circle cx="77" cy="57" r="1.8"/>
+  </g>
+  <g id="lobed-nucleus" fill="#aa83ba" stroke="#765283" stroke-width="2" stroke-linejoin="round">
+    <path d="M34 62c-3-10 4-16 12-16 6 0 10 3 12 7l5-3c-3-7 0-13 7-15 8-2 15 3 16 10 0 8-5 14-12 14-3 0-6-1-8-3l-5 3c3 7 0 13-6 16l5 4 5-1c-1-7 4-14 11-15 10-2 17 4 17 12 0 9-7 15-15 15-6 0-10-3-12-7l-8 1-8-7c-7 1-13-4-16-15Z"/>
+    <path fill="#c8a3d2" stroke="none" d="M37 59c0-6 6-11 13-9-5 2-9 6-11 12Zm30-12c0-7 9-11 13-5-6-1-10 2-13 5Zm3 27c1-6 10-10 16-6-8 0-12 3-16 6Z"/>
+  </g>
+</svg>

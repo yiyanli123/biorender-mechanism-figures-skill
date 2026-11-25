@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Microplate</title>
+  <g id="plate-frame" stroke="#4e7b81" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#8dbbc0" d="M12 50v13q0 3 3 5l25 22q3 3 8 3h49q5 0 7-3l12-20V56Z"/>
+    <path fill="#cde7e6" d="m13 49 17-18q2-2 6-2h47q4 0 7 3l25 21q3 3 0 7l-12 20q-2 3-7 3H47q-3 0-6-2L13 56q-3-3 0-7Z"/>
+    <path fill="none" stroke="#edf8f7" stroke-width="2" stroke-linecap="round" d="m41 76-23-22m16-20h47"/>
+  </g>
+  <g id="wells" fill="#8fbec4" stroke="#5c929c" stroke-width="1.4">
+    <ellipse cx="36" cy="41" rx="5.5" ry="3.9"/><ellipse cx="50" cy="41" rx="5.5" ry="3.9"/><ellipse cx="64" cy="41" rx="5.5" ry="3.9"/><ellipse cx="78" cy="41" rx="5.5" ry="3.9"/>
+    <ellipse cx="43" cy="52" rx="5.5" ry="3.9"/><ellipse cx="57" cy="52" rx="5.5" ry="3.9"/><ellipse cx="71" cy="52" rx="5.5" ry="3.9"/><ellipse cx="85" cy="52" rx="5.5" ry="3.9"/>
+    <ellipse cx="50" cy="63" rx="5.5" ry="3.9"/><ellipse cx="64" cy="63" rx="5.5" ry="3.9"/><ellipse cx="78" cy="63" rx="5.5" ry="3.9"/><ellipse cx="92" cy="63" rx="5.5" ry="3.9"/>
+    <ellipse cx="57" cy="74" rx="5.5" ry="3.9"/><ellipse cx="71" cy="74" rx="5.5" ry="3.9"/><ellipse cx="85" cy="74" rx="5.5" ry="3.9"/><ellipse cx="99" cy="74" rx="5.5" ry="3.9"/>
+  </g>
+  <g id="samples">
+    <ellipse cx="43" cy="53" rx="4.3" ry="2.4" fill="#e8a78b"/><ellipse cx="57" cy="53" rx="4.3" ry="2.4" fill="#e8a78b"/>
+    <ellipse cx="71" cy="53" rx="4.3" ry="2.4" fill="#efc886"/><ellipse cx="85" cy="53" rx="4.3" ry="2.4" fill="#efc886"/>
+    <ellipse cx="64" cy="64" rx="4.3" ry="2.4" fill="#a79bd1"/><ellipse cx="78" cy="64" rx="4.3" ry="2.4" fill="#a79bd1"/>
+  </g>
+</svg>

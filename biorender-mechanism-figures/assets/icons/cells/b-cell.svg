@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">B cell</title>
+  <g id="membrane" stroke="#64558e" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#e3d9f6" d="M64 22c17-1 33 9 40 23 7 16 3 33-7 45-11 12-30 19-46 15-18-4-33-19-34-37-2-18 10-35 25-42 7-3 13-5 22-4Z"/>
+    <path fill="#c6b5e6" stroke="none" d="M25 83c14 14 40 20 61 9 12-7 17-15 21-26-2 16-13 29-29 35-21 9-42-3-53-18Z"/>
+    <path fill="none" stroke="#faf6ff" stroke-linecap="round" d="M26 54c4-11 13-19 24-23"/>
+  </g>
+  <g id="nucleus">
+    <path fill="#9e86c9" stroke="#6b579b" stroke-width="2" d="M37 58c4-13 17-21 31-19 16 2 26 14 25 27-1 16-15 25-30 24-16 0-28-11-28-24 0-3 1-6 2-8Z"/>
+    <path fill="#bcace0" d="M42 58c4-10 14-16 24-15 6 0 11 2 15 6-13-3-26 0-39 9Z"/>
+    <circle cx="65" cy="72" r="5" fill="#826aaf"/>
+  </g>
+  <g id="surface-immunoglobulins" fill="none" stroke="#765ca7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m40 27-4-8m-6-3 6 3 2-7m35 10 1-8m-5-5 5 5 5-4m20 29 7-5m1-7-1 7 7 1m-5 37 8 2m5-4-5 4 3 6m-30 20 4 7m-2 6 2-6 7 2"/>
+  </g>
+</svg>

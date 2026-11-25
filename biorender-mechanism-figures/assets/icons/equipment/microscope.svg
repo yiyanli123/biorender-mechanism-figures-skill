@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Microscope</title>
+  <g id="stand" stroke="#435c70" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#7ea5b8" d="M73 30c17 4 28 20 28 37 0 19-10 32-25 38H59V93c16-2 27-12 27-27 0-11-6-20-17-24Z"/>
+    <path fill="none" stroke="#aecbd6" stroke-width="3" stroke-linecap="round" d="M83 40c9 8 13 17 13 26 0 12-4 22-12 28"/>
+    <circle cx="91" cy="59" r="8" fill="#b2cfda"/>
+    <circle cx="91" cy="59" r="2.5" fill="#6f98ae" stroke="none"/>
+    <path fill="#c8dce3" d="M34 99h57c8 0 14 6 14 13H21c0-7 5-13 13-13Z"/>
+    <path fill="none" stroke="#789dac" stroke-width="2" d="M24 108h77"/>
+  </g>
+  <g id="stage-and-slide" stroke="#435c70" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#94b7c8" d="M28 77h55v7H28Z"/>
+    <path fill="#a9e0d8" stroke="#4a908c" stroke-width="1.7" d="M38 72h22l5 5H33Z"/>
+    <path d="M58 72h8l4 5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g id="optics" transform="rotate(32 65 37)" stroke="#435c70" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="53" y="12" width="22" height="9" rx="2" fill="#627d92"/>
+    <path fill="#dbe9ed" d="M56 21h16v28l-4 5h-8l-4-5Z"/>
+    <path fill="#76aeb0" d="M59 43h10v15H59Z"/>
+    <path fill="#badbd8" d="M60 58h8v5h-8Z"/>
+    <path fill="none" stroke="#f9fcfd" stroke-width="2.2" stroke-linecap="round" d="M60 25v13"/>
+  </g>
+</svg>

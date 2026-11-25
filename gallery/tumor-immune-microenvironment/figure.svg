@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="figure-title figure-description" width="1680" height="956" viewBox="0 0 1680 956">
+  <title id="figure-title">Tumor immune microenvironment</title>
+  <desc id="figure-description">Three-panel schematic of hypoxia, immune remodeling, and PD-1 checkpoint blockade.</desc>
+  <defs id="definitions">
+    <marker viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto" id="arrowhead">
+      <path d="M0 0 10 5 0 10Z" fill="#526871" id="arrow-tip" />
+    </marker>
+  </defs>
+  <g id="header" inkscape:groupmode="layer" inkscape:label="Figure title and page">
+    <rect x="0" y="0" width="1680" height="956" rx="0" fill="#ffffff" stroke="none" stroke-width="1.4" id="page-background" />
+    <text x="36" y="71" font-size="47" fill="#213842" font-weight="700" text-anchor="start" id="main-title">Tumor immune microenvironment</text>
+    <text x="38" y="110" font-size="23" fill="#526871" font-weight="400" text-anchor="start" id="main-subtitle">Hypoxia, macrophage remodeling, and PD-1 checkpoint blockade</text>
+    <text x="37" y="941" font-size="16" fill="#526871" font-weight="400" text-anchor="start" id="figure-scale-note">Conceptual schematic · Cell sizes and molecular shapes are illustrative.</text>
+  </g>
+  <g id="panel-a" inkscape:groupmode="layer" inkscape:label="A  Hypoxic tumor core">
+    <rect x="36" y="146" width="462" height="596" rx="14" fill="#fff8f5" stroke="#d6dfe1" stroke-width="1.4" id="a-background" />
+    <rect x="60" y="169" width="36" height="36" rx="8" fill="#974e50" stroke="none" stroke-width="1.4" id="a-badge" />
+    <text x="78" y="195" font-size="21" fill="#ffffff" font-weight="700" text-anchor="middle" id="a-letter">A</text>
+    <text x="109" y="195" font-size="29" fill="#213842" font-weight="700" text-anchor="start" id="a-heading">Hypoxic tumor core</text>
+    <text x="60" y="226" font-size="18" fill="#526871" font-weight="400" text-anchor="start" id="a-subtitle">Oxygen availability and local signaling</text>
+    <g transform="translate(74 320) scale(0.796875 0.796875) rotate(22 64 64)" opacity="0.5" id="tumor-cluster-cell-1" inkscape:label="tumor cluster cell 1">
+      <g id="tumor-cluster-cell-1--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-1--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-1--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(128 293) scale(0.8125 0.8125) rotate(-36 64 64)" opacity="0.5" id="tumor-cluster-cell-2" inkscape:label="tumor cluster cell 2">
+      <g id="tumor-cluster-cell-2--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-2--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-2--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(205 309) scale(0.875 0.875) rotate(35 64 64)" opacity="0.5" id="tumor-cluster-cell-3" inkscape:label="tumor cluster cell 3">
+      <g id="tumor-cluster-cell-3--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-3--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-3--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(253 357) scale(0.8828125 0.8828125) rotate(65 64 64)" opacity="0.5" id="tumor-cluster-cell-4" inkscape:label="tumor cluster cell 4">
+      <g id="tumor-cluster-cell-4--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-4--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-4--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(244 436) scale(0.8671875 0.8671875) rotate(20 64 64)" opacity="0.5" id="tumor-cluster-cell-5" inkscape:label="tumor cluster cell 5">
+      <g id="tumor-cluster-cell-5--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-5--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-5--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(188 476) scale(0.8203125 0.8203125) rotate(-16 64 64)" opacity="0.5" id="tumor-cluster-cell-6" inkscape:label="tumor cluster cell 6">
+      <g id="tumor-cluster-cell-6--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-6--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-6--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(100 466) scale(0.7890625 0.7890625) rotate(10 64 64)" opacity="0.5" id="tumor-cluster-cell-7" inkscape:label="tumor cluster cell 7">
+      <g id="tumor-cluster-cell-7--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-7--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-7--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(63 388) scale(0.921875 0.921875) rotate(-31 64 64)" opacity="0.5" id="tumor-cluster-cell-8" inkscape:label="tumor cluster cell 8">
+      <g id="tumor-cluster-cell-8--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="tumor-cluster-cell-8--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="tumor-cluster-cell-8--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <g transform="translate(63 437) scale(1.625 1.625)" opacity="1" id="branching-vessel" inkscape:label="branching vessel">
+      <g id="branching-vessel--vessel-wall" fill="none" stroke="#b36867" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 111C36 79 56 70 78 59c11-6 15-15 19-25" />
+        <path stroke-width="10" d="M39 84c5-13 3-26-6-36-7-8-7-17-6-27m33 47c15 1 25 7 33 3 10-4 16-12 24-11" />
+        <path stroke-width="6" d="M45 80c14 2 28 13 46 9m-4-33c15 0 21-7 29-17M34 52c-9-1-16-7-22-17" />
+      </g>
+      <g id="branching-vessel--lumen" fill="none" stroke="#eab0a4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 111C36 79 56 70 78 59c11-6 15-15 19-25" />
+        <path stroke-width="5" d="M39 84c5-13 3-26-6-36-7-8-7-17-6-27m33 47c15 1 25 7 33 3 10-4 16-12 24-11" />
+        <path stroke-width="3" d="M45 80c14 2 28 13 46 9m-4-33c15 0 21-7 29-17M34 52c-9-1-16-7-22-17" />
+      </g>
+    </g>
+    <g transform="translate(104 320) scale(1.6171875 1.6171875)" opacity="1" id="foreground-tumor-cell" inkscape:label="foreground tumor cell">
+      <g id="foreground-tumor-cell--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="foreground-tumor-cell--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="foreground-tumor-cell--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <rect x="70" y="249" width="131" height="41" rx="20" fill="#f8e3df" stroke="#e6b9b3" stroke-width="1.4" id="hypoxia-tag" />
+    <text x="135" y="277" font-size="21" fill="#974e50" font-weight="700" text-anchor="middle" id="hypoxia-label">Hypoxia</text>
+    <path d="M149 296C153 316 169 331 179 344" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="hypoxia-to-tumor" marker-end="url(#arrowhead)" />
+    <rect x="150" y="385" width="122" height="34" rx="8" fill="#fff4ec" stroke="#d49691" stroke-width="1.4" id="hif-tag" />
+    <text x="211" y="409" font-size="22" fill="#974e50" font-weight="700" text-anchor="middle" id="hif-label">HIF-1α</text>
+    <g transform="translate(163 388) scale(0.75 0.75)" opacity="1" id="nuclear-dna" inkscape:label="nuclear dna">
+      <g id="nuclear-dna--base-pairs" stroke="#a7a2c9" stroke-width="3" stroke-linecap="round">
+        <path d="M22 54v20m9-25v30m9-19v8m12-10v12m10-20v28m10-27v26m11-17v8m10-14v20m11-25v30" />
+      </g>
+      <g id="nuclear-dna--backbones" fill="none" stroke-width="4" stroke-linecap="round">
+        <path stroke="#554873" d="M12 80c16 0 16-32 33-32s17 32 34 32 17-32 37-32" />
+        <path stroke="#815d93" d="M12 48c16 0 16 32 33 32s17-32 34-32 17 32 37 32" />
+      </g>
+    </g>
+    <path d="M299 416C318 412 339 400 356 383" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="tumor-to-signals" stroke-dasharray="6 6" marker-end="url(#arrowhead)" />
+    <g transform="translate(350 352) scale(0.1484375 0.1484375)" opacity="1" id="niche-ccl2-particle-1" inkscape:label="niche ccl2 particle 1">
+      <g id="niche-ccl2-particle-1--body">
+        <circle cx="64" cy="64" r="47" fill="#69b7bc" stroke="#266b76" stroke-width="7" />
+      </g>
+      <g id="niche-ccl2-particle-1--highlight">
+        <path fill="none" stroke="#e2f7f5" stroke-width="7" stroke-linecap="round" d="M39 58a27 27 0 0 1 19-19" />
+      </g>
+    </g>
+    <g transform="translate(386 374) scale(0.1796875 0.1796875)" opacity="1" id="niche-ccl2-particle-2" inkscape:label="niche ccl2 particle 2">
+      <g id="niche-ccl2-particle-2--body">
+        <circle cx="64" cy="64" r="47" fill="#69b7bc" stroke="#266b76" stroke-width="7" />
+      </g>
+      <g id="niche-ccl2-particle-2--highlight">
+        <path fill="none" stroke="#e2f7f5" stroke-width="7" stroke-linecap="round" d="M39 58a27 27 0 0 1 19-19" />
+      </g>
+    </g>
+    <g transform="translate(363 409) scale(0.15625 0.15625)" opacity="1" id="niche-ccl2-particle-3" inkscape:label="niche ccl2 particle 3">
+      <g id="niche-ccl2-particle-3--body">
+        <circle cx="64" cy="64" r="47" fill="#69b7bc" stroke="#266b76" stroke-width="7" />
+      </g>
+      <g id="niche-ccl2-particle-3--highlight">
+        <path fill="none" stroke="#e2f7f5" stroke-width="7" stroke-linecap="round" d="M39 58a27 27 0 0 1 19-19" />
+      </g>
+    </g>
+    <g transform="translate(409 426) scale(0.125 0.125)" opacity="1" id="niche-ccl2-particle-4" inkscape:label="niche ccl2 particle 4">
+      <g id="niche-ccl2-particle-4--body">
+        <circle cx="64" cy="64" r="47" fill="#69b7bc" stroke="#266b76" stroke-width="7" />
+      </g>
+      <g id="niche-ccl2-particle-4--highlight">
+        <path fill="none" stroke="#e2f7f5" stroke-width="7" stroke-linecap="round" d="M39 58a27 27 0 0 1 19-19" />
+      </g>
+    </g>
+    <g transform="translate(380 337) scale(0.171875 0.171875)" opacity="1" id="niche-csf1-particle-5" inkscape:label="niche csf1 particle 5">
+      <g id="niche-csf1-particle-5--body">
+        <path fill="#edbf72" stroke="#966329" stroke-width="7" stroke-linejoin="round" d="M59 20q5-3 10 0l37 23q5 3 5 8v26q0 5-5 8l-37 23q-5 3-10 0L22 85q-5-3-5-8V51q0-5 5-8Z" />
+      </g>
+      <g id="niche-csf1-particle-5--highlight">
+        <path fill="none" stroke="#fff2c8" stroke-width="6.5" stroke-linecap="round" d="m36 51 25-15" />
+      </g>
+    </g>
+    <g transform="translate(419 347) scale(0.15625 0.15625)" opacity="1" id="niche-csf1-particle-6" inkscape:label="niche csf1 particle 6">
+      <g id="niche-csf1-particle-6--body">
+        <path fill="#edbf72" stroke="#966329" stroke-width="7" stroke-linejoin="round" d="M59 20q5-3 10 0l37 23q5 3 5 8v26q0 5-5 8l-37 23q-5 3-10 0L22 85q-5-3-5-8V51q0-5 5-8Z" />
+      </g>
+      <g id="niche-csf1-particle-6--highlight">
+        <path fill="none" stroke="#fff2c8" stroke-width="6.5" stroke-linecap="round" d="m36 51 25-15" />
+      </g>
+    </g>
+    <g transform="translate(425 393) scale(0.1875 0.1875)" opacity="1" id="niche-csf1-particle-7" inkscape:label="niche csf1 particle 7">
+      <g id="niche-csf1-particle-7--body">
+        <path fill="#edbf72" stroke="#966329" stroke-width="7" stroke-linejoin="round" d="M59 20q5-3 10 0l37 23q5 3 5 8v26q0 5-5 8l-37 23q-5 3-10 0L22 85q-5-3-5-8V51q0-5 5-8Z" />
+      </g>
+      <g id="niche-csf1-particle-7--highlight">
+        <path fill="none" stroke="#fff2c8" stroke-width="6.5" stroke-linecap="round" d="m36 51 25-15" />
+      </g>
+    </g>
+    <g transform="translate(384 416) scale(0.140625 0.140625)" opacity="1" id="niche-csf1-particle-8" inkscape:label="niche csf1 particle 8">
+      <g id="niche-csf1-particle-8--body">
+        <path fill="#edbf72" stroke="#966329" stroke-width="7" stroke-linejoin="round" d="M59 20q5-3 10 0l37 23q5 3 5 8v26q0 5-5 8l-37 23q-5 3-10 0L22 85q-5-3-5-8V51q0-5 5-8Z" />
+      </g>
+      <g id="niche-csf1-particle-8--highlight">
+        <path fill="none" stroke="#fff2c8" stroke-width="6.5" stroke-linecap="round" d="m36 51 25-15" />
+      </g>
+    </g>
+    <text x="365" y="480" font-size="20" fill="#286b68" font-weight="700" text-anchor="start" id="ccl2-particle-label">CCL2</text>
+    <text x="425" y="480" font-size="20" fill="#865921" font-weight="700" text-anchor="start" id="csf1-particle-label">CSF1</text>
+    <text x="221" y="609" font-size="21" fill="#974e50" font-weight="700" text-anchor="middle" id="tumor-cell-label">Tumor cells</text>
+    <path d="M61 639H473" fill="none" stroke="#e8ccc7" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" id="a-caption-rule" />
+    <text x="61" y="671" font-size="18" fill="#213842" font-weight="700" text-anchor="start" id="a-caption-line-1">Low oxygen stabilizes HIF-1α.</text>
+    <text x="61" y="699" font-size="17" fill="#526871" font-weight="400" text-anchor="start" id="a-caption-line-2">Niche signals can support myeloid recruitment</text>
+    <text x="61" y="721" font-size="17" fill="#526871" font-weight="400" text-anchor="start" id="a-caption-line-3">and survival, depending on tumor context.</text>
+  </g>
+  <g id="panel-b" inkscape:groupmode="layer" inkscape:label="B  Immune remodeling">
+    <rect x="514" y="146" width="536" height="596" rx="14" fill="#f3faf7" stroke="#d6dfe1" stroke-width="1.4" id="b-background" />
+    <rect x="538" y="169" width="36" height="36" rx="8" fill="#286b68" stroke="none" stroke-width="1.4" id="b-badge" />
+    <text x="556" y="195" font-size="21" fill="#ffffff" font-weight="700" text-anchor="middle" id="b-letter">B</text>
+    <text x="587" y="195" font-size="29" fill="#213842" font-weight="700" text-anchor="start" id="b-heading">Immune remodeling</text>
+    <text x="538" y="226" font-size="18" fill="#526871" font-weight="400" text-anchor="start" id="b-subtitle">Monocyte recruitment and local suppression</text>
+    <text x="624" y="277" font-size="21" fill="#213842" font-weight="700" text-anchor="middle" id="monocyte-label">Monocyte</text>
+    <text x="849" y="277" font-size="21" fill="#286b68" font-weight="700" text-anchor="middle" id="tam-label">M2-like TAM</text>
+    <g transform="translate(566 294) scale(0.90625 0.90625)" opacity="1" id="recruited-monocyte" inkscape:label="recruited monocyte">
+      <g id="recruited-monocyte--membrane">
+        <circle cx="64" cy="64" r="47" fill="#e2daf3" stroke="#6f6097" stroke-width="2.6" />
+        <path fill="#c7b8e6" d="M21 79c11 13 30 23 49 20 16-2 32-14 40-30-2 23-22 40-46 40-19 0-36-11-43-30Z" />
+        <path fill="none" stroke="#f7f0ff" stroke-width="3.3" stroke-linecap="round" d="M26 55c3-13 13-23 24-27" />
+      </g>
+      <g id="recruited-monocyte--kidney-shaped-nucleus">
+        <path fill="#a18bc6" stroke="#715b9f" stroke-width="2.1" d="M64 39c13-7 28 1 30 15 4 19-11 35-32 35-14 1-27-9-27-20 0-10 9-14 16-10 7 5 12 1 11-5-2-7-2-12 2-15Z" />
+        <path fill="#bdabdb" d="M69 43c10-5 21 4 20 10-5-6-13-8-20-5Z" />
+        <circle cx="70" cy="72" r="5" fill="#8b73b4" />
+      </g>
+      <g id="recruited-monocyte--granules" fill="#aa96ca">
+        <circle cx="37" cy="52" r="2.3" />
+        <circle cx="46" cy="34" r="2.7" />
+        <circle cx="57" cy="32" r="1.8" />
+        <circle cx="94" cy="43" r="2.1" />
+        <circle cx="101" cy="63" r="2.5" />
+        <circle cx="88" cy="90" r="2.4" />
+        <circle cx="73" cy="96" r="1.8" />
+        <circle cx="41" cy="85" r="2.2" />
+      </g>
+    </g>
+    <g transform="translate(780 287) scale(1.0703125 1.0703125)" opacity="1" id="polarized-macrophage" inkscape:label="polarized macrophage">
+      <g id="polarized-macrophage--membrane" stroke-linejoin="round">
+        <path fill="#b1dcd2" stroke="#527d79" stroke-width="2.5" d="M14 67c1-7 13-9 15-16 3-9-4-15-3-22 1-5 5-6 10-2 6 4 10 7 16 4 7-4 10-17 17-17 7 0 6 14 15 19 8 5 19 0 25 4 8 6-2 10-5 15-5 8 0 14 7 17 9 4 8 10 2 13-6 4-16-1-21 6-3 4 0 13-5 16-7 5-13-4-20-4-9-2-16 11-23 8-7-2-2-11-8-16-5-5-16-2-20-8-3-6 10-8 10-13 0-5-13 3-12-4Z" />
+        <path fill="#8dbfb4" d="M29 77c12 16 27 20 46 16 13-2 20-8 24-14 5-1 10 1 14 0-5 4-16-1-23 8-4 5 1 14-6 16-7 2-11-6-19-6-9-1-14 9-20 9-5 0-2-10-8-15-6-6-16-2-19-7-1-3 5-4 11-7Z" />
+        <path fill="none" stroke="#e1f4ed" stroke-width="3" stroke-linecap="round" d="M36 53c4-8 11-13 19-16" />
+      </g>
+      <g id="polarized-macrophage--nucleus">
+        <path fill="#6b9c9b" stroke="#4c777d" stroke-width="2" d="M40 68c-4-12 5-24 17-24 11-1 19 6 19 12-1 5-6 7-11 6-5-1-7 3-4 6 4 4 6 7 2 12-7 8-20 0-23-12Z" />
+        <path fill="#94bbb8" d="M44 63c-1-9 5-15 14-15 5 0 8 1 11 4-10-2-18 2-25 11Z" />
+      </g>
+      <g id="polarized-macrophage--vesicles" fill="#d5ede0" stroke="#7ba9a3" stroke-width="1.7">
+        <circle cx="87" cy="52" r="7" />
+        <circle cx="85" cy="73" r="10" />
+        <circle cx="33" cy="68" r="3" />
+        <circle cx="71" cy="87" r="3.4" />
+        <path fill="#93c2b3" stroke="none" d="M83 70c5-4 9 2 5 5-3 3-7-1-5-5Z" />
+      </g>
+    </g>
+    <path d="M461 372C490 372 505 351 532 351H573" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="context-to-recruitment" stroke-dasharray="6 6" marker-end="url(#arrowhead)" />
+    <path d="M677 351H785" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="monocyte-to-tam" marker-end="url(#arrowhead)" />
+    <text x="730" y="329" font-size="15" fill="#526871" font-weight="400" text-anchor="middle" id="differentiation-label">Differentiation</text>
+    <path d="M849 412V429H908V442" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="tam-to-arg1" marker-end="url(#arrowhead)" />
+    <rect x="582" y="450" width="79" height="37" rx="17" fill="#e5f3ed" stroke="#bfd9cd" stroke-width="1.4" id="il-10-pill" />
+    <text x="621.5" y="475" font-size="17" fill="#286b68" font-weight="700" text-anchor="middle" id="il-10-label">IL-10</text>
+    <rect x="669" y="450" width="81" height="37" rx="17" fill="#e5f3ed" stroke="#bfd9cd" stroke-width="1.4" id="tgf-beta-pill" />
+    <text x="709.5" y="475" font-size="17" fill="#286b68" font-weight="700" text-anchor="middle" id="tgf-beta-label">TGF-β</text>
+    <rect x="840" y="450" width="136" height="37" rx="17" fill="#e5f3ed" stroke="#bfd9cd" stroke-width="1.4" id="arg1-pill" />
+    <text x="908.0" y="475" font-size="17" fill="#286b68" font-weight="700" text-anchor="middle" id="arg1-label">ARG1 activity</text>
+    <text x="665" y="512" font-size="16" fill="#526871" font-weight="400" text-anchor="middle" id="cytokines-label">Secreted factors</text>
+    <text x="908" y="512" font-size="16" fill="#526871" font-weight="400" text-anchor="middle" id="enzyme-label">Enzymatic pathway</text>
+    <path d="M849 429H665V445" fill="none" stroke="#526871" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" id="tam-mediator-branch" marker-end="url(#arrowhead)" />
+    <path d="M665 520Q689 535 777 532H839Q880 532 896 549" fill="none" stroke="#526871" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" id="soluble-factors-to-t-cell" stroke-dasharray="6 6" marker-end="url(#arrowhead)" />
+    <path d="M908 521V548" fill="none" stroke="#526871" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" id="arg1-pathway-to-t-cell" stroke-dasharray="6 6" marker-end="url(#arrowhead)" />
+    <g transform="translate(570 535) scale(0.8828125 0.8828125)" opacity="1" id="effector-t-cell" inkscape:label="effector t cell">
+      <g id="effector-t-cell--membrane" stroke="#456d9b" stroke-width="2.5" stroke-linejoin="round">
+        <path fill="#cfdef3" d="M64 22c16-2 33 9 39 22 8 15 4 35-8 47-12 14-32 18-48 12-17-6-29-20-29-37 0-22 18-43 39-43Z" />
+        <path fill="#a1bde0" stroke="none" d="M29 86c16 12 43 16 62 2 11-8 15-19 15-28 3 18-9 36-24 42-19 8-41 1-53-16Z" />
+        <path fill="none" stroke="#eaf2fe" stroke-linecap="round" d="M28 56c4-13 14-22 25-26" />
+      </g>
+      <g id="effector-t-cell--nucleus">
+        <path fill="#789cca" stroke="#496d9f" stroke-width="2" d="M43 56c3-12 16-20 29-17 14 3 23 14 22 27-1 14-12 24-27 25-16 1-28-9-28-23 0-4 2-8 4-12Z" />
+        <path fill="#9cbae0" d="M46 58c5-11 16-17 27-14 5 1 8 4 11 7-11-4-24-3-38 7Z" />
+        <circle cx="70" cy="72" r="5" fill="#5f83b3" />
+      </g>
+      <g id="effector-t-cell--surface-receptors" fill="none" stroke="#436c9c" stroke-width="3" stroke-linecap="round">
+        <path d="m44 27-4-9m-3 2 6-3m30 5 1-10m-3 0h6m19 22 7-7m-2-2 4 4m2 31 9-1m0-3 1 6M85 101l4 8m-3 2 6-3" />
+      </g>
+    </g>
+    <g transform="translate(855 536) scale(0.828125 0.828125)" opacity="1" id="exhausted-effector-t-cell" inkscape:label="exhausted effector t cell">
+      <g id="exhausted-effector-t-cell--membrane">
+        <path fill="#c7d4ee" stroke="#647693" stroke-width="2.6" d="M64 16c9-2 14 3 21 7 7 5 15 3 19 11 3 6 1 13 6 20 4 7 6 16 1 23-4 6-6 10-8 17-2 8-8 13-17 13-6 0-12 5-20 6-8 1-15-2-22-6-6-4-15-2-20-8-7-7-5-16-10-22-5-7-5-15-1-22 4-6 5-10 5-17 1-9 8-14 17-15 10-1 18-9 29-7Z" />
+        <path fill="#a5b5d4" d="M18 78c12 16 28 25 47 25s36-10 44-29c-2 8-6 12-8 21-2 7-8 11-16 11-7 1-13 5-20 5-9 1-14-3-21-6-7-4-14-3-19-8-5-6-4-13-7-19Z" />
+        <path fill="none" stroke="#e8effb" stroke-width="3" stroke-linecap="round" d="M23 55c3-8 5-16 15-19" />
+      </g>
+      <g id="exhausted-effector-t-cell--nucleus">
+        <circle cx="62" cy="66" r="24.5" fill="#8197be" stroke="#586d98" stroke-width="2" />
+        <path fill="#9eafd0" d="M44 59c2-9 11-14 20-14 8 0 14 3 18 10-11-6-24-5-38 4Z" />
+        <circle cx="66" cy="71" r="5.5" fill="#6d82ac" />
+      </g>
+      <g id="exhausted-effector-t-cell--cytoplasmic-granules" fill="#8097bb">
+        <ellipse cx="34" cy="51" rx="3" ry="4" />
+        <ellipse cx="46" cy="31" rx="3" ry="2.5" />
+        <circle cx="64" cy="28" r="3" />
+        <circle cx="83" cy="35" r="2.5" />
+        <ellipse cx="94" cy="51" rx="3" ry="4.5" />
+        <circle cx="101" cy="65" r="2.7" />
+        <circle cx="94" cy="80" r="3.1" />
+        <circle cx="78" cy="96" r="2.9" />
+        <ellipse cx="55" cy="98" rx="3.5" ry="2.8" />
+        <ellipse cx="39" cy="90" rx="3.5" ry="2.4" />
+        <circle cx="27" cy="73" r="3" />
+      </g>
+    </g>
+    <path d="M684 592H862" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="t-cell-dysfunction-arrow" stroke-dasharray="6 6" marker-end="url(#arrowhead)" />
+    <text x="770" y="570" font-size="16" fill="#526871" font-weight="400" text-anchor="middle" id="dysfunction-label">May impair function</text>
+    <text x="626" y="669" font-size="20" fill="#345982" font-weight="700" text-anchor="middle" id="effector-t-cell-label">CD8⁺ T cell</text>
+    <text x="908" y="669" font-size="19" fill="#345982" font-weight="700" text-anchor="middle" id="exhausted-t-cell-label">Exhausted CD8⁺ T cell</text>
+    <path d="M539 688H1024" fill="none" stroke="#c9ded6" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" id="b-caption-rule" />
+    <text x="539" y="718" font-size="17" fill="#526871" font-weight="400" text-anchor="start" id="b-caption">TAM-mediated suppression can involve multiple pathways.</text>
+  </g>
+  <g id="panel-c" inkscape:groupmode="layer" inkscape:label="C  PD-1 checkpoint blockade">
+    <rect x="1066" y="146" width="578" height="596" rx="14" fill="#f5f8fd" stroke="#d6dfe1" stroke-width="1.4" id="c-background" />
+    <rect x="1090" y="169" width="36" height="36" rx="8" fill="#345982" stroke="none" stroke-width="1.4" id="c-badge" />
+    <text x="1108" y="195" font-size="21" fill="#ffffff" font-weight="700" text-anchor="middle" id="c-letter">C</text>
+    <text x="1139" y="195" font-size="29" fill="#213842" font-weight="700" text-anchor="start" id="c-heading">PD-1 checkpoint blockade</text>
+    <text x="1090" y="226" font-size="18" fill="#526871" font-weight="400" text-anchor="start" id="c-subtitle">Comparison of signaling states</text>
+    <text x="1094" y="269" font-size="23" fill="#345982" font-weight="700" text-anchor="start" id="engaged-state-title">Checkpoint engaged</text>
+    <g transform="translate(1092 310) scale(0.921875 0.921875)" opacity="1" id="untreated-macrophage" inkscape:label="untreated macrophage">
+      <g id="untreated-macrophage--membrane" stroke-linejoin="round">
+        <path fill="#b1dcd2" stroke="#527d79" stroke-width="2.5" d="M14 67c1-7 13-9 15-16 3-9-4-15-3-22 1-5 5-6 10-2 6 4 10 7 16 4 7-4 10-17 17-17 7 0 6 14 15 19 8 5 19 0 25 4 8 6-2 10-5 15-5 8 0 14 7 17 9 4 8 10 2 13-6 4-16-1-21 6-3 4 0 13-5 16-7 5-13-4-20-4-9-2-16 11-23 8-7-2-2-11-8-16-5-5-16-2-20-8-3-6 10-8 10-13 0-5-13 3-12-4Z" />
+        <path fill="#8dbfb4" d="M29 77c12 16 27 20 46 16 13-2 20-8 24-14 5-1 10 1 14 0-5 4-16-1-23 8-4 5 1 14-6 16-7 2-11-6-19-6-9-1-14 9-20 9-5 0-2-10-8-15-6-6-16-2-19-7-1-3 5-4 11-7Z" />
+        <path fill="none" stroke="#e1f4ed" stroke-width="3" stroke-linecap="round" d="M36 53c4-8 11-13 19-16" />
+      </g>
+      <g id="untreated-macrophage--nucleus">
+        <path fill="#6b9c9b" stroke="#4c777d" stroke-width="2" d="M40 68c-4-12 5-24 17-24 11-1 19 6 19 12-1 5-6 7-11 6-5-1-7 3-4 6 4 4 6 7 2 12-7 8-20 0-23-12Z" />
+        <path fill="#94bbb8" d="M44 63c-1-9 5-15 14-15 5 0 8 1 11 4-10-2-18 2-25 11Z" />
+      </g>
+      <g id="untreated-macrophage--vesicles" fill="#d5ede0" stroke="#7ba9a3" stroke-width="1.7">
+        <circle cx="87" cy="52" r="7" />
+        <circle cx="85" cy="73" r="10" />
+        <circle cx="33" cy="68" r="3" />
+        <circle cx="71" cy="87" r="3.4" />
+        <path fill="#93c2b3" stroke="none" d="M83 70c5-4 9 2 5 5-3 3-7-1-5-5Z" />
+      </g>
+    </g>
+    <g transform="translate(1320 311) scale(0.90625 0.90625)" opacity="1" id="untreated-t-cell" inkscape:label="untreated t cell">
+      <g id="untreated-t-cell--membrane" stroke="#456d9b" stroke-width="2.5" stroke-linejoin="round">
+        <path fill="#cfdef3" d="M64 22c16-2 33 9 39 22 8 15 4 35-8 47-12 14-32 18-48 12-17-6-29-20-29-37 0-22 18-43 39-43Z" />
+        <path fill="#a1bde0" stroke="none" d="M29 86c16 12 43 16 62 2 11-8 15-19 15-28 3 18-9 36-24 42-19 8-41 1-53-16Z" />
+        <path fill="none" stroke="#eaf2fe" stroke-linecap="round" d="M28 56c4-13 14-22 25-26" />
+      </g>
+      <g id="untreated-t-cell--nucleus">
+        <path fill="#789cca" stroke="#496d9f" stroke-width="2" d="M43 56c3-12 16-20 29-17 14 3 23 14 22 27-1 14-12 24-27 25-16 1-28-9-28-23 0-4 2-8 4-12Z" />
+        <path fill="#9cbae0" d="M46 58c5-11 16-17 27-14 5 1 8 4 11 7-11-4-24-3-38 7Z" />
+        <circle cx="70" cy="72" r="5" fill="#5f83b3" />
+      </g>
+      <g id="untreated-t-cell--surface-receptors" fill="none" stroke="#436c9c" stroke-width="3" stroke-linecap="round">
+        <path d="m44 27-4-9m-3 2 6-3m30 5 1-10m-3 0h6m19 22 7-7m-2-2 4 4m2 31 9-1m0-3 1 6M85 101l4 8m-3 2 6-3" />
+      </g>
+    </g>
+    <g transform="translate(1194 319) scale(0.78125 0.78125)" opacity="1" id="bound-pd-l1" inkscape:label="bound pd l1">
+      <g id="bound-pd-l1--membrane-stalk">
+        <path stroke="#9a691f" stroke-width="12" stroke-linecap="round" d="M11 64h54" />
+        <path stroke="#ecc274" stroke-width="6" stroke-linecap="round" d="M11 64h54" />
+      </g>
+      <g id="bound-pd-l1--ectodomain">
+        <path fill="#e9b765" stroke="#9a691f" stroke-width="4.5" d="M68 47h25c10 0 18 7 18 17s-8 17-18 17H68c-10 0-18-7-18-17s8-17 18-17Z" />
+        <path fill="none" stroke="#fff0c6" stroke-width="4" stroke-linecap="round" d="M65 57h22" />
+      </g>
+    </g>
+    <g transform="translate(1346 317) scale(-0.8125 0.8125)" opacity="1" id="bound-pd-1" inkscape:label="bound pd 1">
+      <g id="bound-pd-1--membrane-stalk">
+        <path stroke="#315a87" stroke-width="12" stroke-linecap="round" d="M11 64h55" />
+        <path stroke="#8caed3" stroke-width="6" stroke-linecap="round" d="M11 64h55" />
+      </g>
+      <g id="bound-pd-1--ectodomain">
+        <path fill="#729bc8" stroke="#315a87" stroke-width="4.5" stroke-linejoin="round" d="M63 49c5-8 17-12 23-7 4 4 0 9-2 12-4 5-4 15 0 20 2 3 6 8 2 12-6 5-18 1-23-7-6-9-6-21 0-30Z" />
+        <path fill="none" stroke="#c4d8ee" stroke-width="3.5" stroke-linecap="round" d="M66 57c2-4 6-8 11-9" />
+      </g>
+    </g>
+    <text x="1232" y="312" font-size="18" fill="#865921" font-weight="700" text-anchor="middle" id="pd-l1-interaction-label">PD-L1</text>
+    <text x="1311" y="312" font-size="18" fill="#345982" font-weight="700" text-anchor="middle" id="pd-1-interaction-label">PD-1</text>
+    <path d="M1428 369H1490" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="engaged-to-suppression" marker-end="url(#arrowhead)" />
+    <g transform="translate(1500 335) scale(0.5234375 0.5234375)" opacity="1" id="reduced-cytotoxicity-symbol" inkscape:label="reduced cytotoxicity symbol">
+      <g id="reduced-cytotoxicity-symbol--ring">
+        <circle cx="64" cy="64" r="47" fill="#fff4f2" stroke="#ba6262" stroke-width="7" />
+      </g>
+      <g id="reduced-cytotoxicity-symbol--minus">
+        <path fill="none" stroke="#973c45" stroke-width="9" stroke-linecap="round" d="M47 64h34" />
+      </g>
+    </g>
+    <text x="1534" y="424" font-size="20" fill="#974e50" font-weight="700" text-anchor="middle" id="reduced-cytotoxicity-line-1">Reduced</text>
+    <text x="1534" y="448" font-size="19" fill="#974e50" font-weight="400" text-anchor="middle" id="reduced-cytotoxicity-line-2">cytotoxicity</text>
+    <text x="1151" y="445" font-size="17" fill="#286b68" font-weight="400" text-anchor="middle" id="untreated-macrophage-label">M2-like TAM</text>
+    <text x="1378" y="445" font-size="17" fill="#345982" font-weight="400" text-anchor="middle" id="untreated-t-cell-label">CD8⁺ T cell</text>
+    <path d="M1094 470H1616" fill="none" stroke="#afbdc1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" id="checkpoint-state-divider" stroke-dasharray="6 6" />
+    <text x="1094" y="508" font-size="23" fill="#345982" font-weight="700" text-anchor="start" id="blocked-state-title">Checkpoint blocked</text>
+    <text x="1291" y="533" font-size="18" fill="#6c4879" font-weight="700" text-anchor="middle" id="anti-pd-1-label">Anti-PD-1</text>
+    <g transform="translate(1092 550) scale(0.921875 0.921875)" opacity="1" id="treated-macrophage" inkscape:label="treated macrophage">
+      <g id="treated-macrophage--membrane" stroke-linejoin="round">
+        <path fill="#b1dcd2" stroke="#527d79" stroke-width="2.5" d="M14 67c1-7 13-9 15-16 3-9-4-15-3-22 1-5 5-6 10-2 6 4 10 7 16 4 7-4 10-17 17-17 7 0 6 14 15 19 8 5 19 0 25 4 8 6-2 10-5 15-5 8 0 14 7 17 9 4 8 10 2 13-6 4-16-1-21 6-3 4 0 13-5 16-7 5-13-4-20-4-9-2-16 11-23 8-7-2-2-11-8-16-5-5-16-2-20-8-3-6 10-8 10-13 0-5-13 3-12-4Z" />
+        <path fill="#8dbfb4" d="M29 77c12 16 27 20 46 16 13-2 20-8 24-14 5-1 10 1 14 0-5 4-16-1-23 8-4 5 1 14-6 16-7 2-11-6-19-6-9-1-14 9-20 9-5 0-2-10-8-15-6-6-16-2-19-7-1-3 5-4 11-7Z" />
+        <path fill="none" stroke="#e1f4ed" stroke-width="3" stroke-linecap="round" d="M36 53c4-8 11-13 19-16" />
+      </g>
+      <g id="treated-macrophage--nucleus">
+        <path fill="#6b9c9b" stroke="#4c777d" stroke-width="2" d="M40 68c-4-12 5-24 17-24 11-1 19 6 19 12-1 5-6 7-11 6-5-1-7 3-4 6 4 4 6 7 2 12-7 8-20 0-23-12Z" />
+        <path fill="#94bbb8" d="M44 63c-1-9 5-15 14-15 5 0 8 1 11 4-10-2-18 2-25 11Z" />
+      </g>
+      <g id="treated-macrophage--vesicles" fill="#d5ede0" stroke="#7ba9a3" stroke-width="1.7">
+        <circle cx="87" cy="52" r="7" />
+        <circle cx="85" cy="73" r="10" />
+        <circle cx="33" cy="68" r="3" />
+        <circle cx="71" cy="87" r="3.4" />
+        <path fill="#93c2b3" stroke="none" d="M83 70c5-4 9 2 5 5-3 3-7-1-5-5Z" />
+      </g>
+    </g>
+    <g transform="translate(1320 551) scale(0.90625 0.90625)" opacity="1" id="treated-t-cell" inkscape:label="treated t cell">
+      <g id="treated-t-cell--membrane" stroke="#456d9b" stroke-width="2.5" stroke-linejoin="round">
+        <path fill="#cfdef3" d="M64 22c16-2 33 9 39 22 8 15 4 35-8 47-12 14-32 18-48 12-17-6-29-20-29-37 0-22 18-43 39-43Z" />
+        <path fill="#a1bde0" stroke="none" d="M29 86c16 12 43 16 62 2 11-8 15-19 15-28 3 18-9 36-24 42-19 8-41 1-53-16Z" />
+        <path fill="none" stroke="#eaf2fe" stroke-linecap="round" d="M28 56c4-13 14-22 25-26" />
+      </g>
+      <g id="treated-t-cell--nucleus">
+        <path fill="#789cca" stroke="#496d9f" stroke-width="2" d="M43 56c3-12 16-20 29-17 14 3 23 14 22 27-1 14-12 24-27 25-16 1-28-9-28-23 0-4 2-8 4-12Z" />
+        <path fill="#9cbae0" d="M46 58c5-11 16-17 27-14 5 1 8 4 11 7-11-4-24-3-38 7Z" />
+        <circle cx="70" cy="72" r="5" fill="#5f83b3" />
+      </g>
+      <g id="treated-t-cell--surface-receptors" fill="none" stroke="#436c9c" stroke-width="3" stroke-linecap="round">
+        <path d="m44 27-4-9m-3 2 6-3m30 5 1-10m-3 0h6m19 22 7-7m-2-2 4 4m2 31 9-1m0-3 1 6M85 101l4 8m-3 2 6-3" />
+      </g>
+    </g>
+    <g transform="translate(1194 565) scale(0.6875 0.6875)" opacity="1" id="unbound-pd-l1" inkscape:label="unbound pd l1">
+      <g id="unbound-pd-l1--membrane-stalk">
+        <path stroke="#9a691f" stroke-width="12" stroke-linecap="round" d="M11 64h54" />
+        <path stroke="#ecc274" stroke-width="6" stroke-linecap="round" d="M11 64h54" />
+      </g>
+      <g id="unbound-pd-l1--ectodomain">
+        <path fill="#e9b765" stroke="#9a691f" stroke-width="4.5" d="M68 47h25c10 0 18 7 18 17s-8 17-18 17H68c-10 0-18-7-18-17s8-17 18-17Z" />
+        <path fill="none" stroke="#fff0c6" stroke-width="4" stroke-linecap="round" d="M65 57h22" />
+      </g>
+    </g>
+    <g transform="translate(1344 563.5) scale(-0.7109375 0.7109375)" opacity="1" id="antibody-bound-pd-1" inkscape:label="antibody bound pd 1">
+      <g id="antibody-bound-pd-1--membrane-stalk">
+        <path stroke="#315a87" stroke-width="12" stroke-linecap="round" d="M11 64h55" />
+        <path stroke="#8caed3" stroke-width="6" stroke-linecap="round" d="M11 64h55" />
+      </g>
+      <g id="antibody-bound-pd-1--ectodomain">
+        <path fill="#729bc8" stroke="#315a87" stroke-width="4.5" stroke-linejoin="round" d="M63 49c5-8 17-12 23-7 4 4 0 9-2 12-4 5-4 15 0 20 2 3 6 8 2 12-6 5-18 1-23-7-6-9-6-21 0-30Z" />
+        <path fill="none" stroke="#c4d8ee" stroke-width="3.5" stroke-linecap="round" d="M66 57c2-4 6-8 11-9" />
+      </g>
+    </g>
+    <g transform="translate(1274 542) scale(0.453125 0.453125) rotate(153 64 64)" opacity="1" id="therapeutic-antibody" inkscape:label="therapeutic antibody">
+      <g id="therapeutic-antibody--heavy-chains" fill="none" stroke-linejoin="round" stroke-linecap="round">
+        <path stroke="#69496f" stroke-width="12" d="M59 110V64L26 25m43 85V64l33-39" />
+        <path stroke="#ab7eac" stroke-width="6" d="M59 110V64L26 25m43 85V64l33-39" />
+      </g>
+      <g id="therapeutic-antibody--light-chains" fill="none" stroke="#845a90" stroke-width="6" stroke-linecap="round">
+        <path d="m16 28 26 30m70-30L86 58" />
+      </g>
+    </g>
+    <path d="M1271 605l10 10m0-10-10 10" fill="none" stroke="#a84c54" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="blockade-cross" />
+    <path d="M1428 609H1490" fill="none" stroke="#526871" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" id="blockade-to-recovery" marker-end="url(#arrowhead)" />
+    <g transform="translate(1500 575) scale(0.5234375 0.5234375)" opacity="1" id="partial-recovery-symbol" inkscape:label="partial recovery symbol">
+      <g id="partial-recovery-symbol--ring">
+        <circle cx="64" cy="64" r="47" fill="#eef8ef" stroke="#5a916d" stroke-width="7" />
+      </g>
+      <g id="partial-recovery-symbol--arrow">
+        <path fill="none" stroke="#39764e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M46 65h35m-15-14 15 14-15 14" />
+      </g>
+    </g>
+    <text x="1534" y="664" font-size="18" fill="#37674c" font-weight="700" text-anchor="middle" id="recovery-line-1">Possible partial</text>
+    <text x="1534" y="688" font-size="19" fill="#37674c" font-weight="400" text-anchor="middle" id="recovery-line-2">recovery</text>
+    <text x="1151" y="684" font-size="17" fill="#286b68" font-weight="400" text-anchor="middle" id="treated-macrophage-label">M2-like TAM</text>
+    <text x="1378" y="684" font-size="17" fill="#345982" font-weight="400" text-anchor="middle" id="treated-t-cell-label">CD8⁺ T cell</text>
+    <text x="1094" y="718" font-size="17" fill="#526871" font-weight="400" text-anchor="start" id="checkpoint-caption">The antibody binds PD-1 on the CD8⁺ T cell.</text>
+  </g>
+  <g id="legend" inkscape:groupmode="layer" inkscape:label="Legend">
+    <rect x="36" y="767" width="1608" height="148" rx="12" fill="#f8fafb" stroke="#dbe3e5" stroke-width="1.4" id="legend-background" />
+    <text x="61" y="798" font-size="20" fill="#213842" font-weight="700" text-anchor="start" id="legend-title">Legend</text>
+    <g transform="translate(61 806.0) scale(0.3125 0.3125)" opacity="1" id="key-icon-tumor-cell" inkscape:label="key icon tumor cell">
+      <g id="key-icon-tumor-cell--membrane">
+        <path fill="#f8c5b5" stroke="#ab625e" stroke-width="2.6" d="M61 13c10-1 14 5 22 7 7 3 17 1 22 8 5 6 3 13 8 20 5 7 7 14 4 22-4 9-3 16-9 22-6 7-14 7-20 13-6 7-13 11-22 9-9-1-13-6-22-7-8-1-17-1-23-8-6-6-4-14-9-21-5-8-6-16-3-23 3-8 10-12 12-21 2-8 8-14 17-15 8-1 14-6 23-6Z" />
+        <path fill="#e99c92" d="M15 73c10 18 29 26 51 27 20 0 38-12 49-30-3 11-6 19-13 24-5 4-12 7-18 13-6 5-11 6-18 5-10-2-13-6-23-7-8-1-15-1-20-7-5-5-4-17-8-25Z" />
+        <path fill="none" stroke="#ffe9dd" stroke-width="4" stroke-linecap="round" d="M23 54c4-14 13-22 26-26m7-2 5-1" />
+      </g>
+      <g id="key-icon-tumor-cell--nucleus">
+        <path fill="#de8a86" stroke="#ac686c" stroke-width="2" d="M66 32c16 1 29 12 30 28 2 19-13 34-31 34-17 0-33-12-34-29-1-18 16-34 35-33Z" />
+        <path fill="#edaaa1" d="M40 53c5-10 15-16 27-16 7 1 16 4 20 10-14-6-30-5-47 6Z" />
+        <circle cx="75" cy="70" r="8" fill="#c87878" />
+      </g>
+      <g id="key-icon-tumor-cell--granules" fill="#c87975" opacity=".72">
+        <ellipse cx="24" cy="65" rx="2.5" ry="4" />
+        <circle cx="28" cy="79" r="2.4" />
+        <circle cx="38" cy="88" r="2.1" />
+        <circle cx="48" cy="97" r="2.9" />
+        <circle cx="84" cy="94" r="2.2" />
+        <circle cx="99" cy="82" r="2.8" />
+        <circle cx="104" cy="60" r="2.6" />
+        <circle cx="91" cy="34" r="2.6" />
+      </g>
+    </g>
+    <text x="110" y="832" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-tumor-cell">Tumor cell</text>
+    <g transform="translate(374 806.0) scale(0.3125 0.3125)" opacity="1" id="key-icon-monocyte" inkscape:label="key icon monocyte">
+      <g id="key-icon-monocyte--membrane">
+        <circle cx="64" cy="64" r="47" fill="#e2daf3" stroke="#6f6097" stroke-width="2.6" />
+        <path fill="#c7b8e6" d="M21 79c11 13 30 23 49 20 16-2 32-14 40-30-2 23-22 40-46 40-19 0-36-11-43-30Z" />
+        <path fill="none" stroke="#f7f0ff" stroke-width="3.3" stroke-linecap="round" d="M26 55c3-13 13-23 24-27" />
+      </g>
+      <g id="key-icon-monocyte--kidney-shaped-nucleus">
+        <path fill="#a18bc6" stroke="#715b9f" stroke-width="2.1" d="M64 39c13-7 28 1 30 15 4 19-11 35-32 35-14 1-27-9-27-20 0-10 9-14 16-10 7 5 12 1 11-5-2-7-2-12 2-15Z" />
+        <path fill="#bdabdb" d="M69 43c10-5 21 4 20 10-5-6-13-8-20-5Z" />
+        <circle cx="70" cy="72" r="5" fill="#8b73b4" />
+      </g>
+      <g id="key-icon-monocyte--granules" fill="#aa96ca">
+        <circle cx="37" cy="52" r="2.3" />
+        <circle cx="46" cy="34" r="2.7" />
+        <circle cx="57" cy="32" r="1.8" />
+        <circle cx="94" cy="43" r="2.1" />
+        <circle cx="101" cy="63" r="2.5" />
+        <circle cx="88" cy="90" r="2.4" />
+        <circle cx="73" cy="96" r="1.8" />
+        <circle cx="41" cy="85" r="2.2" />
+      </g>
+    </g>
+    <text x="423" y="832" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-monocyte">Monocyte</text>
+    <g transform="translate(687 806.0) scale(0.3125 0.3125)" opacity="1" id="key-icon-m2-like-tam" inkscape:label="key icon m2 like tam">
+      <g id="key-icon-m2-like-tam--membrane" stroke-linejoin="round">
+        <path fill="#b1dcd2" stroke="#527d79" stroke-width="2.5" d="M14 67c1-7 13-9 15-16 3-9-4-15-3-22 1-5 5-6 10-2 6 4 10 7 16 4 7-4 10-17 17-17 7 0 6 14 15 19 8 5 19 0 25 4 8 6-2 10-5 15-5 8 0 14 7 17 9 4 8 10 2 13-6 4-16-1-21 6-3 4 0 13-5 16-7 5-13-4-20-4-9-2-16 11-23 8-7-2-2-11-8-16-5-5-16-2-20-8-3-6 10-8 10-13 0-5-13 3-12-4Z" />
+        <path fill="#8dbfb4" d="M29 77c12 16 27 20 46 16 13-2 20-8 24-14 5-1 10 1 14 0-5 4-16-1-23 8-4 5 1 14-6 16-7 2-11-6-19-6-9-1-14 9-20 9-5 0-2-10-8-15-6-6-16-2-19-7-1-3 5-4 11-7Z" />
+        <path fill="none" stroke="#e1f4ed" stroke-width="3" stroke-linecap="round" d="M36 53c4-8 11-13 19-16" />
+      </g>
+      <g id="key-icon-m2-like-tam--nucleus">
+        <path fill="#6b9c9b" stroke="#4c777d" stroke-width="2" d="M40 68c-4-12 5-24 17-24 11-1 19 6 19 12-1 5-6 7-11 6-5-1-7 3-4 6 4 4 6 7 2 12-7 8-20 0-23-12Z" />
+        <path fill="#94bbb8" d="M44 63c-1-9 5-15 14-15 5 0 8 1 11 4-10-2-18 2-25 11Z" />
+      </g>
+      <g id="key-icon-m2-like-tam--vesicles" fill="#d5ede0" stroke="#7ba9a3" stroke-width="1.7">
+        <circle cx="87" cy="52" r="7" />
+        <circle cx="85" cy="73" r="10" />
+        <circle cx="33" cy="68" r="3" />
+        <circle cx="71" cy="87" r="3.4" />
+        <path fill="#93c2b3" stroke="none" d="M83 70c5-4 9 2 5 5-3 3-7-1-5-5Z" />
+      </g>
+    </g>
+    <text x="736" y="832" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-m2-like-tam">M2-like TAM</text>
+    <g transform="translate(1000 806.0) scale(0.3125 0.3125)" opacity="1" id="key-icon-cd8-t-cell" inkscape:label="key icon cd8 t cell">
+      <g id="key-icon-cd8-t-cell--membrane" stroke="#456d9b" stroke-width="2.5" stroke-linejoin="round">
+        <path fill="#cfdef3" d="M64 22c16-2 33 9 39 22 8 15 4 35-8 47-12 14-32 18-48 12-17-6-29-20-29-37 0-22 18-43 39-43Z" />
+        <path fill="#a1bde0" stroke="none" d="M29 86c16 12 43 16 62 2 11-8 15-19 15-28 3 18-9 36-24 42-19 8-41 1-53-16Z" />
+        <path fill="none" stroke="#eaf2fe" stroke-linecap="round" d="M28 56c4-13 14-22 25-26" />
+      </g>
+      <g id="key-icon-cd8-t-cell--nucleus">
+        <path fill="#789cca" stroke="#496d9f" stroke-width="2" d="M43 56c3-12 16-20 29-17 14 3 23 14 22 27-1 14-12 24-27 25-16 1-28-9-28-23 0-4 2-8 4-12Z" />
+        <path fill="#9cbae0" d="M46 58c5-11 16-17 27-14 5 1 8 4 11 7-11-4-24-3-38 7Z" />
+        <circle cx="70" cy="72" r="5" fill="#5f83b3" />
+      </g>
+      <g id="key-icon-cd8-t-cell--surface-receptors" fill="none" stroke="#436c9c" stroke-width="3" stroke-linecap="round">
+        <path d="m44 27-4-9m-3 2 6-3m30 5 1-10m-3 0h6m19 22 7-7m-2-2 4 4m2 31 9-1m0-3 1 6M85 101l4 8m-3 2 6-3" />
+      </g>
+    </g>
+    <text x="1049" y="832" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-cd8-t-cell">CD8⁺ T cell</text>
+    <g transform="translate(1313 806.0) scale(0.3125 0.3125)" opacity="1" id="key-icon-exhausted-t-cell" inkscape:label="key icon exhausted t cell">
+      <g id="key-icon-exhausted-t-cell--membrane">
+        <path fill="#c7d4ee" stroke="#647693" stroke-width="2.6" d="M64 16c9-2 14 3 21 7 7 5 15 3 19 11 3 6 1 13 6 20 4 7 6 16 1 23-4 6-6 10-8 17-2 8-8 13-17 13-6 0-12 5-20 6-8 1-15-2-22-6-6-4-15-2-20-8-7-7-5-16-10-22-5-7-5-15-1-22 4-6 5-10 5-17 1-9 8-14 17-15 10-1 18-9 29-7Z" />
+        <path fill="#a5b5d4" d="M18 78c12 16 28 25 47 25s36-10 44-29c-2 8-6 12-8 21-2 7-8 11-16 11-7 1-13 5-20 5-9 1-14-3-21-6-7-4-14-3-19-8-5-6-4-13-7-19Z" />
+        <path fill="none" stroke="#e8effb" stroke-width="3" stroke-linecap="round" d="M23 55c3-8 5-16 15-19" />
+      </g>
+      <g id="key-icon-exhausted-t-cell--nucleus">
+        <circle cx="62" cy="66" r="24.5" fill="#8197be" stroke="#586d98" stroke-width="2" />
+        <path fill="#9eafd0" d="M44 59c2-9 11-14 20-14 8 0 14 3 18 10-11-6-24-5-38 4Z" />
+        <circle cx="66" cy="71" r="5.5" fill="#6d82ac" />
+      </g>
+      <g id="key-icon-exhausted-t-cell--cytoplasmic-granules" fill="#8097bb">
+        <ellipse cx="34" cy="51" rx="3" ry="4" />
+        <ellipse cx="46" cy="31" rx="3" ry="2.5" />
+        <circle cx="64" cy="28" r="3" />
+        <circle cx="83" cy="35" r="2.5" />
+        <ellipse cx="94" cy="51" rx="3" ry="4.5" />
+        <circle cx="101" cy="65" r="2.7" />
+        <circle cx="94" cy="80" r="3.1" />
+        <circle cx="78" cy="96" r="2.9" />
+        <ellipse cx="55" cy="98" rx="3.5" ry="2.8" />
+        <ellipse cx="39" cy="90" rx="3.5" ry="2.4" />
+        <circle cx="27" cy="73" r="3" />
+      </g>
+    </g>
+    <text x="1362" y="832" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-exhausted-t-cell">Exhausted CD8⁺ T cell</text>
+    <g transform="translate(61 857.0) scale(0.265625 0.265625)" opacity="1" id="key-icon-ccl2" inkscape:label="key icon ccl2">
+      <g id="key-icon-ccl2--body">
+        <circle cx="64" cy="64" r="47" fill="#69b7bc" stroke="#266b76" stroke-width="7" />
+      </g>
+      <g id="key-icon-ccl2--highlight">
+        <path fill="none" stroke="#e2f7f5" stroke-width="7" stroke-linecap="round" d="M39 58a27 27 0 0 1 19-19" />
+      </g>
+    </g>
+    <text x="110" y="880" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-ccl2">CCL2</text>
+    <g transform="translate(374 857.0) scale(0.265625 0.265625)" opacity="1" id="key-icon-csf1" inkscape:label="key icon csf1">
+      <g id="key-icon-csf1--body">
+        <path fill="#edbf72" stroke="#966329" stroke-width="7" stroke-linejoin="round" d="M59 20q5-3 10 0l37 23q5 3 5 8v26q0 5-5 8l-37 23q-5 3-10 0L22 85q-5-3-5-8V51q0-5 5-8Z" />
+      </g>
+      <g id="key-icon-csf1--highlight">
+        <path fill="none" stroke="#fff2c8" stroke-width="6.5" stroke-linecap="round" d="m36 51 25-15" />
+      </g>
+    </g>
+    <text x="423" y="880" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-csf1">CSF1</text>
+    <g transform="translate(687 857.0) scale(0.265625 0.265625)" opacity="1" id="key-icon-pd-l1" inkscape:label="key icon pd l1">
+      <g id="key-icon-pd-l1--membrane-stalk">
+        <path stroke="#9a691f" stroke-width="12" stroke-linecap="round" d="M11 64h54" />
+        <path stroke="#ecc274" stroke-width="6" stroke-linecap="round" d="M11 64h54" />
+      </g>
+      <g id="key-icon-pd-l1--ectodomain">
+        <path fill="#e9b765" stroke="#9a691f" stroke-width="4.5" d="M68 47h25c10 0 18 7 18 17s-8 17-18 17H68c-10 0-18-7-18-17s8-17 18-17Z" />
+        <path fill="none" stroke="#fff0c6" stroke-width="4" stroke-linecap="round" d="M65 57h22" />
+      </g>
+    </g>
+    <text x="736" y="880" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-pd-l1">PD-L1</text>
+    <g transform="translate(1000 857.0) scale(0.265625 0.265625)" opacity="1" id="key-icon-pd-1" inkscape:label="key icon pd 1">
+      <g id="key-icon-pd-1--membrane-stalk">
+        <path stroke="#315a87" stroke-width="12" stroke-linecap="round" d="M11 64h55" />
+        <path stroke="#8caed3" stroke-width="6" stroke-linecap="round" d="M11 64h55" />
+      </g>
+      <g id="key-icon-pd-1--ectodomain">
+        <path fill="#729bc8" stroke="#315a87" stroke-width="4.5" stroke-linejoin="round" d="M63 49c5-8 17-12 23-7 4 4 0 9-2 12-4 5-4 15 0 20 2 3 6 8 2 12-6 5-18 1-23-7-6-9-6-21 0-30Z" />
+        <path fill="none" stroke="#c4d8ee" stroke-width="3.5" stroke-linecap="round" d="M66 57c2-4 6-8 11-9" />
+      </g>
+    </g>
+    <text x="1049" y="880" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-pd-1">PD-1</text>
+    <g transform="translate(1313 854.0) scale(0.3125 0.3125)" opacity="1" id="key-icon-anti-pd-1" inkscape:label="key icon anti pd 1">
+      <g id="key-icon-anti-pd-1--heavy-chains" fill="none" stroke-linejoin="round" stroke-linecap="round">
+        <path stroke="#69496f" stroke-width="12" d="M59 110V64L26 25m43 85V64l33-39" />
+        <path stroke="#ab7eac" stroke-width="6" d="M59 110V64L26 25m43 85V64l33-39" />
+      </g>
+      <g id="key-icon-anti-pd-1--light-chains" fill="none" stroke="#845a90" stroke-width="6" stroke-linecap="round">
+        <path d="m16 28 26 30m70-30L86 58" />
+      </g>
+    </g>
+    <text x="1362" y="880" font-size="18" fill="#213842" font-weight="400" text-anchor="start" id="key-label-anti-pd-1">Anti-PD-1</text>
+  </g>
+</svg>
