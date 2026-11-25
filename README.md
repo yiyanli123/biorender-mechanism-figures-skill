@@ -1,10 +1,12 @@
-# BioRender Mechanism Figures Skill
+# Editable Biomedical Mechanism Figures
 
 [English](./README.md) | [中文](./README.zh-CN.md)
 
-An Agent Skill for drawing original, BioRender-inspired biomedical mechanism figures with editable SVG parts. It can also prepare prompts for GPT Image and other raster workflows.
+**Create BioRender-inspired mechanism figures as editable SVGs.** Recolor a cell, redraw a receptor, or swap a single icon in the finished figure. Cells, arrows, and labels are separate objects you can move or delete.
 
-This project helps agents turn paper paragraphs, hypotheses, pathway descriptions, review topics, or grant ideas into clear scientific schematics: mechanism figures, graphical abstracts, review diagrams, pathway maps, and experimental workflows.
+This Agent Skill turns manuscript paragraphs, pathway descriptions, and review topics into mechanism figures, graphical abstracts, or experimental workflows. Each figure comes with its reusable icon files.
+
+[Try the editable example](#editable-mechanism-figure) · [Edit or replace an icon](#edit-or-replace-an-icon)
 
 > Not affiliated with BioRender. This skill aims for an original, BioRender-inspired scientific visual language and explicitly avoids copying BioRender assets, templates, logos, or proprietary icons.
 
@@ -24,6 +26,16 @@ Tumor immune microenvironment assembled from individual SVG icons. The cells, mo
 
 [Editable figure and icon sources](./gallery/examples/tumor-immune-microenvironment.md#editable-figure)
 
+## Edit or Replace an Icon
+
+Ask the skill to change a shape, outline, color, or level of detail, or provide an SVG of your own. Name the panel or position for a single replacement, or ask to replace every instance of that icon. For manual edits, open `figure.svg` in Inkscape or Illustrator and enter the icon's group to select a part.
+
+```text
+Use $biorender-mechanism-figures to redraw only the macrophage in panel B with a rounder outline and a muted green fill. Save the new icon separately and apply it to that instance.
+```
+
+For figures created by the skill, keep `figure.svg`, `layout.svg`, and `icons/` together for later revisions. If you have already edited the figure by hand, provide the latest SVG as the starting point. The skill returns the revised icon and a revised figure when you ask it to apply the change.
+
 ## Repository Name
 
 Recommended GitHub repository name:
@@ -36,7 +48,7 @@ biorender-mechanism-figures-skill
 
 1. Identify the required cells, molecules, compartments, and relationships.
 2. Reuse suitable icons and draw missing ones as standalone SVGs.
-3. Assemble `figure.svg` with separately editable icons, arrows, and text, and deliver it with the used `icons/` files.
+3. Assemble `figure.svg` with separately editable icons, arrows, and text. Deliver it with `layout.svg` and the used `icons/` files.
 
 Installing the complete `biorender-mechanism-figures/` folder includes the icon library and assembly helper. The helper uses Python 3.9+ and runs locally without an image-generation account. For a prompt or raster draft, ask for that output explicitly.
 

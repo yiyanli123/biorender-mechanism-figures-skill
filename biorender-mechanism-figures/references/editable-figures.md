@@ -33,8 +33,16 @@ python3 /path/to/biorender-mechanism-figures/scripts/assemble_svg.py layout.svg 
 
 The helper uses the Python 3.9+ standard library. It inserts a separate copy of every icon's vector geometry, prefixes internal IDs and local fragment references, and checks for duplicate IDs, missing references and unsupported elements. Keep styles on SVG elements or in inline `style` attributes. Use local `url(#id)` references for gradient fills, clipping and arrowheads. The assembler expects direct native SVG elements. Expand clones and convert foreign or raster components into equivalent native vector shapes before assembly. If Python is unavailable, assemble the same native groups directly in an SVG editor or in markup.
 
+## Revise an Icon or Its Style
+
+1. Match the requested change to the icon and instance. Use the panel and relative position when the same icon appears multiple times. Ask which instance only if the intended scope remains ambiguous.
+2. Copy the icon to a new project-local file such as `icons/t-cell-round.svg`. Adjust the requested parts, for example the membrane outline or nucleus fill, or use a user-supplied SVG. Normalize any imported artwork to the 128-unit icon canvas while preserving its proportions and editable geometry. Retain the original asset and the features that identify the biological entity.
+3. Use the latest figure as the source of truth. When `layout.svg` matches the current figure, change `data-icon="t-cell"` to `data-icon="t-cell-round"` on the target group and assemble to `figure-revised.svg`. For a whole-figure style swap, update every matching group, including corresponding legend entries. Retain the current transforms, object IDs, and connections unless the requested change requires an adjustment.
+4. When the assembled SVG contains manual edits, apply the replacement to a copy of that SVG. Replace the targeted group's geometry in place and namespace the replacement's internal IDs and references. Preserve the outer group's ID, transform, and sibling objects. If a layout is still available, only use it for later assembly once it reflects those manual edits.
+5. Compare the revised figure to the starting figure. Verify that the selected icon changes at the requested positions, that other instances retain their previous appearance for a single-instance edit, and that nearby labels and arrows still fit. Deliver the new icon and the revised figure when requested.
+
 ## Validate the Deliverables
 
 - Confirm that `figure.svg` can be opened or rendered independently of `icons/`, and that the axis, arrow or annotation labels remain SVG text. Check the figure at the intended display or print width.
 - In a temporary copy, remove a repeated icon instance or its label to verify independent editing. Check that other instances remain in place. In a vector editor, enter the group or ungroup it to edit the icon's internal paths.
-- Deliver the self-contained figure and the icon files used. Keep `layout.svg` when delivering a reproducible assembly; manual changes belong in an edited copy of `figure.svg`. Supply a PNG preview when available. For vector PDF export, use a vector-capable editor and inspect the export for unintended rasterization.
+- Deliver the self-contained figure and the icon files used. Include `layout.svg` whenever it was used for assembly. Supply a PNG preview when available. For vector PDF export, use a vector-capable editor and inspect the export for unintended rasterization.

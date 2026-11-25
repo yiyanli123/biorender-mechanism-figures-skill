@@ -1,10 +1,12 @@
-# BioRender 机制图 Skill
+# 可编辑的生物医学机制图
 
 [English](./README.md) | [中文](./README.zh-CN.md)
 
-这是一个 Agent Skill，用于绘制由可编辑 SVG 元素组成的原创 BioRender 风格生物医学机制图，也可按需为 GPT Image 等栅格图像工具编写提示词。
+**生成可编辑的 BioRender 风格 SVG 机制图。** 细胞、箭头和文字都可以单独移动或删除。图标的颜色、轮廓和细节可以修改，也可以只替换图中的某一个实例。
 
-它可以帮助智能体把论文段落、科学假设、通路描述、综述主题或基金想法转换成清晰的科学示意图：机制图、图形摘要、综述示意图、通路图和实验流程图。
+这个 Agent Skill 可以把论文段落、通路描述或综述主题画成机制图、图形摘要或实验流程图，同时交付可复用的独立图标。
+
+[试用可编辑示例](#可编辑机制图) · [修改或替换图标](#修改或替换图标)
 
 > 本项目与 BioRender 无从属关系。这个 skill 追求原创的 BioRender-inspired 科学视觉语言，并明确避免复制 BioRender 资产、模板、logo 或专有图标。
 
@@ -24,6 +26,16 @@ Skill 内置 16 枚通用细胞和器材图标，以及 14 枚肿瘤免疫图标
 
 [查看可编辑成图和独立图标](./gallery/examples/tumor-immune-microenvironment.md#editable-figure)
 
+## 修改或替换图标
+
+可以直接让 skill 修改图标的形状、描边、配色或细节，也可以提供自己的 SVG。按面板或位置指定修改某一个实例，或要求统一替换全图中的同类图标。手动编辑时，用 Inkscape 或 Illustrator 打开 `figure.svg`，进入图标的分组即可选中单个部件。
+
+```text
+用 $biorender-mechanism-figures，只把 B 面板的巨噬细胞画得更圆，改成低饱和绿色。把新图标单独保存，并替换图中的这一个实例。
+```
+
+建议一并保留 `figure.svg`、`layout.svg` 和 `icons/`。已经手动改过图时，把最新的 SVG 交给 skill 继续编辑。要求把修改应用到成图时，skill 会同时交付修改后的图标和新版成图。
+
 ## 仓库名
 
 推荐 GitHub 仓库名：
@@ -36,7 +48,7 @@ biorender-mechanism-figures-skill
 
 1. 盘点细胞、分子、区室和机制关系。
 2. 复用合适的图标，把缺少的元素单独画成 SVG。
-3. 组装 `figure.svg`，让图标、箭头和文字都能单独编辑，同时交付使用到的 `icons/` 文件。
+3. 组装 `figure.svg`，让图标、箭头和文字都能单独编辑，同时交付 `layout.svg` 和使用到的 `icons/` 文件。
 
 完整安装 `biorender-mechanism-figures/` 目录即可获得图标库和组装脚本。脚本使用 Python 3.9+，可在本地运行，无需图像生成账号。需要提示词或栅格草图时，可在请求里指定。
 

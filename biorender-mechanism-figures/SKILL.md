@@ -1,6 +1,6 @@
 ---
 name: biorender-mechanism-figures
-description: Create original BioRender-inspired mechanism figures, pathway diagrams, graphical abstracts, and review or methods schematics. Use for drawing biomedical figures from reusable editable SVG icons, creating new cell, molecule, tissue, or equipment icons, or preparing an image prompt or raster draft on request.
+description: Create original BioRender-inspired mechanism figures, pathway diagrams, graphical abstracts, and review or methods schematics. Use for drawing biomedical figures from editable SVG icons, recoloring, redrawing or replacing individual icons and icon styles, or preparing an image prompt or raster draft on request.
 ---
 
 # Biorender Mechanism Figures
@@ -14,7 +14,11 @@ Turn biomedical concepts into original scientific schematics with clear reading 
 1. Plan the panels and inventory the distinct elements. Read [the visual guide](references/visual-language.md) for BioRender-inspired composition. For a reference figure, inspect the panels, repeated elements, labels, and directional links before drawing.
 2. Inspect the bundled `assets/icons/` library. Copy suitable icons to an `icons/` subdirectory in the task's output folder. Draw missing icons and variants there as separate, transparent SVGs with named editable parts. Finish the required icon files before assembling the figure. For icon-only requests, deliver those SVG files without composing a figure.
 3. Draw a figure layout and inline the icons. Use [the editable SVG guide](references/editable-figures.md) and bundled `scripts/assemble_svg.py` to generate a self-contained `figure.svg`. Keep each icon instance, arrow, compartment, legend entry, and text label editable on its own. Use a different filename or folder when revising a manually edited figure.
-4. Verify and deliver. Render the final figure when a renderer is available. Inspect scientific directionality, text, alignment, and readability. Test that removing one repeated icon or label in a temporary copy leaves other instances intact. Deliver `figure.svg` and the used standalone `icons/`. Include a PNG preview when available and export vector PDF when requested and supported.
+4. Verify and deliver. Render the final figure when a renderer is available. Inspect scientific directionality, text, alignment, and readability. Test that removing one repeated icon or label in a temporary copy leaves other instances intact. Deliver `figure.svg`, `layout.svg` when used for assembly, and the used standalone `icons/`. Include a PNG preview when available and export vector PDF when requested and supported.
+
+## Revise an Icon or Its Style
+
+Identify the target by its name, object ID, panel, or location. Apply a localized request to the indicated instance. Apply a global request to the matching instances and their associated legend icons. Follow [the revision workflow](references/editable-figures.md#revise-an-icon-or-its-style) to edit parts, draw a new style, or import a user-supplied SVG, while keeping manual figure edits. Deliver the revised standalone icon. Also return an updated figure when the user asks to apply the change to it.
 
 ## Prompt and Raster Workflow
 
