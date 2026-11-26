@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse 42 editable biomedical SVGs organized into five collections.">
+    <title>Editable SVG Icon Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js" defer></script>
+  </head>
+  <body>
+    <main class="gallery">
+      <header class="gallery-header">
+        <div>
+          <h1>Editable SVG Icon Gallery</h1>
+          <p><span lang="zh-CN">可编辑生物医学图标</span><span aria-hidden="true"> · </span>42 SVGs</p>
+        </div>
+        <a class="catalog-link" href="https://github.com/yiyanli123/biorender-mechanism-figures-skill/blob/main/gallery/icons.md">
+          All SVGs <span lang="zh-CN">全部源文件</span>
+        </a>
+      </header>
+
+      <nav class="category-nav" aria-label="Icon collections">
+        <a href="#cells" aria-current="true">Cells <span lang="zh-CN">细胞</span></a>
+        <a href="#anatomy">Anatomy <span lang="zh-CN">器官</span></a>
+        <a href="#organelles">Organelles <span lang="zh-CN">细胞器</span></a>
+        <a href="#equipment">Equipment <span lang="zh-CN">器材</span></a>
+        <a href="#tumor-immune">Tumor Immunology <span lang="zh-CN">肿瘤免疫</span></a>
+      </nav>
+
+      <div class="slider-controls" hidden>
+        <button type="button" data-previous aria-label="Previous collection" title="Previous collection" aria-controls="collections">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+        </button>
+        <input type="range" min="1" max="5" step="1" value="1" aria-label="Collection position" aria-controls="collections">
+        <output aria-hidden="true">1 / 5</output>
+        <button type="button" data-next aria-label="Next collection" title="Next collection" aria-controls="collections">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+      <span class="sr-only" role="status"></span>
+
+      <section id="collections" class="collections" tabindex="0" aria-label="Biomedical icon sheets">
+        <figure id="cells" class="collection" aria-labelledby="cells-title">
+          <a class="sheet" href="icon-sheets/cells.png" target="_blank" rel="noopener" aria-label="Open the full-size cells sheet">
+            <img src="icon-sheets/cells.png" width="2304" height="914" alt="Eight cell icons: T cell, B cell, macrophage, neutrophil, dendritic cell, columnar epithelial cell, neuron, and erythrocyte.">
+          </a>
+          <figcaption>
+            <strong id="cells-title">Cells <span lang="zh-CN">细胞</span></strong>
+            <a href="https://github.com/yiyanli123/biorender-mechanism-figures-skill/blob/main/gallery/icons.md#cells--细胞">8 SVGs <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
+        <figure id="anatomy" class="collection" aria-labelledby="anatomy-title">
+          <a class="sheet" href="icon-sheets/anatomy.png" target="_blank" rel="noopener" aria-label="Open the full-size anatomy sheet">
+            <img src="icon-sheets/anatomy.png" width="2304" height="548" alt="Four anatomical icons: heart, lungs, kidney, and liver.">
+          </a>
+          <figcaption>
+            <strong id="anatomy-title">Human Anatomy <span lang="zh-CN">人体器官</span></strong>
+            <a href="https://github.com/yiyanli123/biorender-mechanism-figures-skill/blob/main/gallery/icons.md#anatomy--人体器官">4 SVGs <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
+        <figure id="organelles" class="collection" aria-labelledby="organelles-title">
+          <a class="sheet" href="icon-sheets/organelles.png" target="_blank" rel="noopener" aria-label="Open the full-size organelles sheet">
+            <img src="icon-sheets/organelles.png" width="2304" height="548" alt="Four organelle icons: mitochondrion, cell nucleus, Golgi apparatus, and lysosome.">
+          </a>
+          <figcaption>
+            <strong id="organelles-title">Cell Organelles <span lang="zh-CN">细胞器</span></strong>
+            <a href="https://github.com/yiyanli123/biorender-mechanism-figures-skill/blob/main/gallery/icons.md#cell-organelles--细胞器">4 SVGs <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
+        <figure id="equipment" class="collection" aria-labelledby="equipment-title">
+          <a class="sheet" href="icon-sheets/equipment.png" target="_blank" rel="noopener" aria-label="Open the full-size equipment sheet">
+            <img src="icon-sheets/equipment.png" width="2304" height="914" alt="Twelve laboratory and clinical equipment icons, including a microscope, centrifuge, culture dish, and DNA sequencer.">
+          </a>
+          <figcaption>
+            <strong id="equipment-title">Lab &amp; Clinical Equipment <span lang="zh-CN">实验与临床器材</span></strong>
+            <a href="https://github.com/yiyanli123/biorender-mechanism-figures-skill/blob/main/gallery/icons.md#laboratory-and-clinical-equipment--实验与临床器材">12 SVGs <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
+        <figure id="tumor-immune" class="collection" aria-labelledby="tumor-title">
+          <a class="sheet" href="icon-sheets/tumor-immune.png" target="_blank" rel="noopener" aria-label="Open the full-size tumor immunology sheet">
+            <img src="icon-sheets/tumor-immune.png" width="2304" height="914" alt="Fourteen tumor immunology icons, including cell states, a blood vessel, DNA, signaling molecules, and checkpoint proteins.">
+          </a>
+          <figcaption>
+            <strong id="tumor-title">Tumor Immunology <span lang="zh-CN">肿瘤免疫</span></strong>
+            <a href="https://github.com/yiyanli123/biorender-mechanism-figures-skill/blob/main/gallery/examples/tumor-immune-microenvironment.md#standalone-icons">14 SVGs <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+  </body>
+</html>

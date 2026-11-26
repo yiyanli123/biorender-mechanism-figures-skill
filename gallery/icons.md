@@ -1,6 +1,6 @@
 # Biomedical SVG Icons / 生物医学 SVG 图标
 
-![Editable SVG Icon Atlas showing the 12 newest anatomy, organelle, and laboratory icons](../assets/editable-svg-icon-atlas.png)
+[Swipe through all 42 icons / 左右滑动浏览全部 42 枚图标](https://yiyanli123.github.io/biorender-mechanism-figures-skill/)
 
 Each link opens a standalone SVG with a transparent background. Open the SVG in Inkscape or Illustrator and ungroup it to select, recolor, move, or remove individual parts. Keep the SVG for edits and export a vector PDF for submission when required.
 
@@ -8,11 +8,9 @@ Each link opens a standalone SVG with a transparent background. Open the SVG in 
 
 See also the [14 tumor immunology icons / 14 枚肿瘤免疫图标](./examples/tumor-immune-microenvironment.md#standalone-icons) bundled with the skill.
 
-[Cell and equipment overview / 细胞与器材总览](../assets/biomedical-svg-icons-preview.png)
+The illustrations are original. The choice of subjects follows the anatomy, cell structure, and lab equipment categories in the BioRender library. Shapes and colors are schematic.
 
-The new atlas illustrations are original. The choice of subjects follows the anatomy, cell structure, and lab equipment categories in the BioRender library. Shapes and colors are schematic.
-
-图鉴中新图标均为原创绘制。选题参考 BioRender 素材库的人体解剖、细胞结构和实验器材分类，形状与配色为示意。[BioRender 素材库 / Icon Library](https://www.biorender.com/library)
+图鉴中的图标均为原创绘制。选题参考 BioRender 素材库的人体解剖、细胞结构和实验器材分类，形状与配色为示意。[BioRender 素材库 / Icon Library](https://www.biorender.com/library)
 
 ## Anatomy / 人体器官
 

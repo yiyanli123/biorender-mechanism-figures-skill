@@ -12,11 +12,19 @@ This Agent Skill turns manuscript paragraphs, pathway descriptions, and review t
 
 ## Editable SVG Icons
 
-The library includes **42 editable SVG icons** for anatomy, organelles, cells, tumor immunology, and laboratory equipment. The atlas below shows the 12 newest additions. Each icon has a transparent background and individually editable parts.
+All **42 editable SVG icons** are shown below, grouped into five collections. Click a sheet to find the individual SVG files. Each SVG has a transparent background and independently editable parts.
 
-[![Editable SVG Icon Atlas showing 12 anatomy, organelle, and lab equipment icons](./assets/editable-svg-icon-atlas.png)](./gallery/icons.md)
+**[Open the swipeable icon gallery](https://yiyanli123.github.io/biorender-mechanism-figures-skill/)** · [Browse all SVG source files](./gallery/icons.md)
 
-[Browse all 42 icons and open the editable SVG files](./gallery/icons.md).
+[![All eight cell icons](./docs/icon-sheets/cells.png)](./gallery/icons.md#cells--细胞)
+
+[![All four human anatomy icons](./docs/icon-sheets/anatomy.png)](./gallery/icons.md#anatomy--人体器官)
+
+[![All four cell organelle icons](./docs/icon-sheets/organelles.png)](./gallery/icons.md#cell-organelles--细胞器)
+
+[![All twelve laboratory and clinical equipment icons](./docs/icon-sheets/equipment.png)](./gallery/icons.md#laboratory-and-clinical-equipment--实验与临床器材)
+
+[![All fourteen tumor immunology icons](./docs/icon-sheets/tumor-immune.png)](./gallery/examples/tumor-immune-microenvironment.md#standalone-icons)
 
 ## Editable Mechanism Figure
 

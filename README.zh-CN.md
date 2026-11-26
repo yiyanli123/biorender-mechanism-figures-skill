@@ -12,11 +12,29 @@
 
 ## 可编辑 SVG 图标
 
-素材库现有 **42 枚可编辑的 SVG 图标**，涵盖器官、细胞器、细胞、肿瘤免疫和实验器材。下方图鉴展示了 12 枚新素材。每枚图标都是透明背景，内部部件可以单独选中、改色或删除。
+下方分五类展示**全部 42 枚可编辑的 SVG 图标**。点击分类图即可找到该组的独立源文件。每枚图标均为透明背景，内部部件可以单独选中、改色或删除。
 
-[![可编辑 SVG 图鉴，展示 12 枚器官、细胞器和实验器材图标](./assets/editable-svg-icon-atlas.png)](./gallery/icons.md)
+**[打开在线滑动图鉴](https://yiyanli123.github.io/biorender-mechanism-figures-skill/)** · [浏览全部 SVG 源文件](./gallery/icons.md)
 
-[浏览全部 42 枚图标并打开可编辑 SVG 文件](./gallery/icons.md)。
+**细胞 · 8 枚**
+
+[![全部 8 枚细胞图标](./docs/icon-sheets/cells.png)](./gallery/icons.md#cells--细胞)
+
+**人体器官 · 4 枚**
+
+[![全部 4 枚人体器官图标](./docs/icon-sheets/anatomy.png)](./gallery/icons.md#anatomy--人体器官)
+
+**细胞器 · 4 枚**
+
+[![全部 4 枚细胞器图标](./docs/icon-sheets/organelles.png)](./gallery/icons.md#cell-organelles--细胞器)
+
+**实验与临床器材 · 12 枚**
+
+[![全部 12 枚实验与临床器材图标](./docs/icon-sheets/equipment.png)](./gallery/icons.md#laboratory-and-clinical-equipment--实验与临床器材)
+
+**肿瘤免疫 · 14 枚**
+
+[![全部 14 枚肿瘤免疫图标](./docs/icon-sheets/tumor-immune.png)](./gallery/examples/tumor-immune-microenvironment.md#standalone-icons)
 
 ## 可编辑机制图
 
