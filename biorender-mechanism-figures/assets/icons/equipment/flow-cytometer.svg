@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Flow cytometer</title>
+  <g id="housing" stroke="#4d7180" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#a8c7d0" d="M18 34 39 21h64l12 13v60l-19 12H18Z"/>
+    <path fill="#d0e4e8" d="M18 34h78v72H18Z"/>
+    <path fill="#91b4c0" d="M96 34h19v60l-19 12Z"/>
+    <path fill="none" stroke="#f5fafb" stroke-width="2.2" stroke-linecap="round" d="M21 38h71m-65-5 15-9"/>
+  </g>
+  <g id="sample-bay">
+    <rect x="27" y="48" width="29" height="45" rx="4" fill="#526f7a"/>
+    <path stroke="#a0bdc5" stroke-width="2.5" d="M41 51v14"/>
+    <path fill="#d1edf0" stroke="#83acbb" stroke-width="1.7" d="M34 63h15l-2 19c-1 5-9 5-10 0Z"/>
+    <path d="M37 75h9l-1 7q-3 5-7 0Z" fill="#d1a0be"/>
+    <path stroke="#809fa9" stroke-width="1.6" stroke-linecap="round" d="M32 88h18"/>
+  </g>
+  <g id="display">
+    <rect x="63" y="48" width="25" height="23" rx="3" fill="#42616d"/>
+    <path fill="none" stroke="#9abcc1" stroke-width="1" d="M68 53v13h15"/>
+    <g fill="#a1d4bd"><circle cx="72" cy="62" r="1.2"/><circle cx="74" cy="62" r="1.3"/><circle cx="77" cy="58" r="1.2"/><circle cx="79" cy="56" r="1.3"/><circle cx="82" cy="55" r="1.2"/></g>
+    <circle cx="74" cy="86" r="4.2" fill="#f1c787" stroke="#9e8663" stroke-width="1.5"/>
+  </g>
+  <g id="side-vents" stroke="#608691" stroke-width="1.7" stroke-linecap="round">
+    <path d="m102 56 8-4m-8 10 8-4m-8 10 8-4m-8 10 8-4"/>
+  </g>
+</svg>

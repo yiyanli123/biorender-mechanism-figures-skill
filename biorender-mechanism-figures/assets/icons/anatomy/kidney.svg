@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Kidney</title>
+  <g id="renal-vessels" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M69 55h35" stroke="#90475b" stroke-width="10"/>
+    <path d="M69 55h35" stroke="#da8994" stroke-width="6"/>
+    <path d="M70 67h43" stroke="#4e7691" stroke-width="10"/>
+    <path d="M70 67h43" stroke="#91b9d1" stroke-width="6"/>
+  </g>
+  <g id="renal-pelvis-and-ureter" fill="none" stroke-linecap="round">
+    <path d="M68 63c14 9 16 25 16 49" stroke="#a37c4d" stroke-width="10"/>
+    <path d="M68 63c14 9 16 25 16 49" stroke="#f2d29d" stroke-width="6"/>
+  </g>
+  <g id="renal-capsule">
+    <path fill="#dc959f" stroke="#89545f" stroke-width="2.6" d="M74 23c15 3 21 17 14 28-3 4-7 6-14 6-6 0-10 4-9 8 2 5 11 8 13 16 4 15-9 27-24 26-18-2-31-16-37-32-7-18-3-32 9-45 12-12 32-13 48-7Z"/>
+    <path fill="#bd6e7c" d="M18 74c10 18 26 28 42 26 8-1 13-5 17-10-4 12-13 17-24 15-15-1-30-15-35-31Z"/>
+    <path d="M25 48c5-11 16-18 29-20m6 0 6 1" fill="none" stroke="#f8c5c3" stroke-width="3" stroke-linecap="round"/>
+    <path d="M72 53c-6 1-11 5-11 11 1 6 8 11 12 15" fill="none" stroke="#a86172" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

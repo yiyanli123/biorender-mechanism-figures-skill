@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Lysosome</title>
+  <g id="lysosomal-membrane">
+    <path fill="#f5d7a5" stroke="#a27753" stroke-width="2.6" d="M65 16c26 1 46 19 47 47 0 27-18 48-46 49-28 0-49-20-50-47-1-27 20-49 49-49Z"/>
+    <path fill="#fae9c7" stroke="#c39b70" stroke-width="1.7" d="M64 23c24 0 42 18 42 41 0 24-17 42-41 42-24 0-42-18-42-41-1-24 17-42 41-42Z"/>
+    <path fill="none" stroke="#fff4db" stroke-width="3.2" stroke-linecap="round" d="M26 54c2-10 9-19 18-24"/>
+  </g>
+  <g id="luminal-enzymes" fill="#c68d84" stroke="#9b6d75" stroke-width="1.7">
+    <path d="M42 48c-5-4-2-11 4-12 2-6 9-4 11 1 7 0 9 8 3 12-1 5-8 6-11 2-3 1-5-1-7-3Z"/>
+    <path d="M74 77c-4-8 1-14 8-12 5-5 13 0 11 6 4 5 0 11-6 10-5 5-11 1-13-4Z"/>
+    <path d="M43 77c4-5 12-5 14 2 5 2 4 8-1 10-4 5-12 2-13-3-4-2-3-7 0-9Z"/>
+  </g>
+  <g id="luminal-particles" fill="#d6aa6c">
+    <circle cx="74" cy="40" r="3"/><circle cx="86" cy="48" r="3.7"/><circle cx="69" cy="60" r="2.4"/><circle cx="38" cy="63" r="3.4"/><circle cx="69" cy="93" r="2.9"/><circle cx="90" cy="89" r="2.1"/>
+  </g>
+</svg>

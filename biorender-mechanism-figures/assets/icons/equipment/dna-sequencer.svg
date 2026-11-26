@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">DNA sequencer</title>
+  <g id="instrument-enclosure" stroke="#4b6d7e" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#afced5" d="M13 35 34 22h66l15 14v51l-18 14H13Z"/>
+    <path fill="#dcebee" d="M13 35h84v66H13Z"/>
+    <path fill="#96bac4" d="M97 36h18v51l-18 14Z"/>
+    <path fill="none" stroke="#f8ffff" stroke-width="2.2" stroke-linecap="round" d="M18 40h74m-67-8 12-7"/>
+    <path fill="#7699a7" d="M24 101h10v5H24Zm53 0h10v5H77Z"/>
+  </g>
+  <g id="cartridge-slot">
+    <rect x="22" y="71" width="66" height="20" rx="3" fill="#b8d7dc" stroke="#6a909e" stroke-width="1.8"/>
+    <path d="M33 76h44" fill="none" stroke="#60848f" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M38 81h34" fill="none" stroke="#f2fdfc" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="control-panel">
+    <rect x="24" y="45" width="47" height="19" rx="3" fill="#44626e"/>
+    <path fill="none" stroke="#a6d7cc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" d="M29 59h6l4-8 4 8h5l4-6 4 6h10"/>
+    <circle cx="80" cy="55" r="4.2" fill="#9bcab3" stroke="#527d77" stroke-width="1.5"/>
+  </g>
+  <g id="side-vents" stroke="#68919c" stroke-width="1.7" stroke-linecap="round">
+    <path d="m103 57 7-5m-7 10 7-5m-7 10 7-5m-7 10 7-5m-7 10 7-5"/>
+  </g>
+</svg>

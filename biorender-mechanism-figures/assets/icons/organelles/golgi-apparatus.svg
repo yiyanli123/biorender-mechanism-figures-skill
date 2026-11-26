@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Golgi apparatus</title>
+  <g id="cisternae" stroke="#607d83" stroke-width="2" stroke-linejoin="round">
+    <path fill="#d4ebe0" d="M22 36c16-19 42-24 70-14 5 2 10 6 9 10-1 5-8 4-14 2-23-7-38-4-54 9-6 6-15 0-11-7Z"/>
+    <path fill="#bcded3" d="M20 50c16-15 41-22 69-13 9 3 14 7 13 11-1 6-9 4-14 2-19-6-40-3-56 10-7 5-17-4-12-10Z"/>
+    <path fill="#a6cec8" d="M22 65c19-13 44-18 69-10 9 3 13 8 11 12-2 5-9 4-14 2-20-5-36-2-51 8-8 5-22-6-15-12Z"/>
+    <path fill="#8abac1" d="M29 82c17-10 33-13 55-8 9 2 14 7 11 11-3 5-9 2-14 1-16-3-27 0-40 8-7 4-18-6-12-12Z"/>
+    <path fill="#76aeb8" d="M42 98c10-6 20-9 31-7 9 0 13 4 11 9-2 4-6 4-12 3-9-1-16 3-23 6-8 4-14-6-7-11Z"/>
+  </g>
+  <g id="transport-vesicles" stroke="#637f82" stroke-width="1.8">
+    <circle cx="13" cy="26" r="5" fill="#d4ebe0"/><circle cx="113" cy="41" r="5.6" fill="#bcded3"/>
+    <circle cx="112" cy="66" r="4.6" fill="#a6cec8"/><circle cx="102" cy="101" r="6" fill="#a6cec8"/><circle cx="91" cy="113" r="4.6" fill="#8abac1"/>
+  </g>
+</svg>

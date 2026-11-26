@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Lungs</title>
+  <g id="lung-lobes" stroke="#a4646c" stroke-width="2.5" stroke-linejoin="round">
+    <path fill="#f0b7be" d="M46 34c-7-5-16 4-22 14-8 14-13 32-12 48 0 12 7 16 17 14 11-2 22-8 24-17 3-9 0-16-4-23-3-5 1-8 4-12 4-6 1-20-7-24Z"/>
+    <path fill="#eeb2b9" d="M80 34c8-4 16 3 23 14 8 14 13 32 13 49 0 10-5 14-15 13-12-1-23-6-28-15-4-7-3-12 0-16 5-7 5-12 1-18-6-8-2-22 6-27Z"/>
+    <path fill="#dc909d" stroke="none" d="M14 98c7 4 26 0 36-10-1 12-15 18-22 20-8 2-12-2-14-10Zm62-9c9 12 24 15 37 12-1 6-6 8-12 7-10-1-20-6-25-13Z"/>
+    <path d="M16 80q18-1 33 8M23 66q10-1 20 3m36 6q15 3 34 15" fill="none" stroke="#c47e8c" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <g id="trachea-and-bronchi" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 17v38l-23 18m23-18 24 18" stroke="#776885" stroke-width="12"/>
+    <path d="M64 17v38l-23 18m23-18 24 18" stroke="#cab6d4" stroke-width="8"/>
+    <path d="M41 73 31 79m10-6-4 15m51-15 11 8m-11-8 3 15" stroke="#b88da8" stroke-width="4"/>
+    <path d="M60 24h8m-8 8h8m-8 8h8m-8 8h8" stroke="#9686a3" stroke-width="1.6"/>
+  </g>
+</svg>

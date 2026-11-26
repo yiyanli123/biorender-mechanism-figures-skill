@@ -12,11 +12,11 @@ This Agent Skill turns manuscript paragraphs, pathway descriptions, and review t
 
 ## Editable SVG Icons
 
-The skill includes 16 general-purpose cell and equipment icons and 14 tumor immunology icons. Each icon has a transparent background and separate vector groups for individual parts.
+The library includes **42 editable SVG icons** for anatomy, organelles, cells, tumor immunology, and laboratory equipment. The atlas below shows the 12 newest additions. Each icon has a transparent background and individually editable parts.
 
-[![Preview of the 16 biomedical SVG icons](./assets/biomedical-svg-icons-preview.png)](./gallery/icons.md)
+[![Editable SVG Icon Atlas showing 12 anatomy, organelle, and lab equipment icons](./assets/editable-svg-icon-atlas.png)](./gallery/icons.md)
 
-[Browse and open the individual SVG files](./gallery/icons.md).
+[Browse all 42 icons and open the editable SVG files](./gallery/icons.md).
 
 ## Editable Mechanism Figure
 

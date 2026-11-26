@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Cell nucleus</title>
+  <g id="nuclear-envelope">
+    <circle cx="64" cy="64" r="49" fill="#c6cfec" stroke="#6475a2" stroke-width="2.6"/>
+    <circle cx="64" cy="64" r="43" fill="#dee4f5" stroke="#8998bd" stroke-width="1.8"/>
+    <path d="M24 54c3-14 13-24 26-29" fill="none" stroke="#f6f7ff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g id="chromatin" fill="none" stroke="#a5a4ca" stroke-width="2.2" stroke-linecap="round">
+    <path d="M39 41c7-6 15 1 11 7-4 6-9 4-10 12m34-22c9-4 18 0 19 7s-7 8-9 13m-52 12c2 4 1 10 7 13 4 2 10-3 14 1m9 10c2 3 6 4 11 0m12-23c7 3 8 9 4 15"/>
+  </g>
+  <g id="nucleolus">
+    <path fill="#9d94c4" stroke="#766f9e" stroke-width="2" d="M51 60c4-7 14-9 20-6 8 4 11 13 6 20-5 8-18 10-24 3-4-4-5-11-2-17Z"/>
+    <path d="M55 64c3-5 9-7 14-5" fill="none" stroke="#c2b9de" stroke-width="2.7" stroke-linecap="round"/>
+  </g>
+  <g id="nuclear-pores" fill="#8796bc" stroke="#6475a2" stroke-width="1">
+    <ellipse cx="63" cy="18" rx="4" ry="2.6"/><ellipse cx="95" cy="32" rx="3.5" ry="2.4" transform="rotate(44 95 32)"/><ellipse cx="110" cy="63" rx="2.5" ry="4"/><ellipse cx="94" cy="99" rx="3.6" ry="2.4" transform="rotate(-43 94 99)"/><ellipse cx="61" cy="110" rx="4" ry="2.6"/><ellipse cx="29" cy="94" rx="3.6" ry="2.4" transform="rotate(44 29 94)"/><ellipse cx="18" cy="64" rx="2.5" ry="4"/>
+  </g>
+</svg>

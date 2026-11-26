@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Cell culture dish</title>
+  <g id="dish-base" stroke="#53828d" stroke-width="2.5">
+    <path fill="#a9d0d5" d="M12 61v14c0 16 23 29 52 29s52-13 52-29V61Z"/>
+    <ellipse cx="64" cy="61" rx="52" ry="29" fill="#e1f2f1"/>
+    <ellipse cx="64" cy="63" rx="44" ry="21" fill="#e9a9a2" stroke="#975f70" stroke-width="1.6"/>
+    <path fill="#f3bcb1" stroke="none" d="M24 62c13 13 42 16 64 11 10-3 16-7 19-12-2 14-24 21-44 21-18 0-33-6-39-12Z"/>
+  </g>
+  <g id="cultured-cells" fill="#f8dcc9" stroke="#b6757c" stroke-width="1.35">
+    <path d="M39 62c-4-2-2-6 2-7 4-2 8 1 8 4 0 4-6 5-10 3Zm13-9c-4-3 0-8 5-8 5 1 7 4 5 7-2 2-6 3-10 1Zm7 16c-1-4 3-7 8-6 4 1 6 4 3 7-4 3-9 2-11-1Zm19-13c-4-4 1-8 5-8 5 0 8 5 4 8-2 2-6 3-9 0Zm8 12c2-3 7-5 10-3 4 2 1 6-3 7-3 1-7-1-7-4Z"/>
+  </g>
+  <g id="rim-highlights" fill="none" stroke-linecap="round">
+    <path stroke="#f5ffff" stroke-width="2.8" d="M20 54c7-9 21-15 35-17m-16 57c9 4 20 5 29 5"/>
+    <path stroke="#79a8af" stroke-width="1.9" d="M102 83c-7 6-18 10-30 12"/>
+  </g>
+</svg>

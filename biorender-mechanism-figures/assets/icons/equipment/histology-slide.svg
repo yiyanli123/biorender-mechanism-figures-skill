@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Histology slide</title>
+  <g id="glass-slide" transform="rotate(-24 64 64)">
+    <rect x="13" y="38" width="102" height="52" rx="5" fill="#bfdee2" stroke="#5c8794" stroke-width="2.5"/>
+    <rect x="17" y="41" width="94" height="44" rx="3" fill="#e4f4f4"/>
+    <path fill="none" stroke="#f9ffff" stroke-width="2.5" stroke-linecap="round" d="M22 47h24m47 0h12"/>
+    <rect x="18" y="43" width="23" height="40" rx="2" fill="#c8e0e7"/>
+    <path stroke="#93b7c2" stroke-width="2" stroke-linecap="round" d="M23 52h13m-13 7h10"/>
+  </g>
+  <g id="coverslip" transform="rotate(-24 64 64)">
+    <rect x="47" y="47" width="54" height="34" rx="2.5" fill="#d2e8ed" stroke="#a3c5ce" stroke-width="1.6"/>
+  </g>
+  <g id="stained-tissue" transform="rotate(-24 64 64)">
+    <path fill="#d5a1bd" stroke="#9a6f9a" stroke-width="1.8" d="M52 64c-1-5 5-9 11-8 8 1 10-4 17-3 7 2 18 7 15 14-2 5-8 6-16 4-9-2-8 4-17 3-7 0-11-4-10-10Z"/>
+    <path fill="none" stroke="#f4c9d4" stroke-width="2.3" stroke-linecap="round" d="M57 62c4-3 10 2 15-1 7-5 14-2 18 2m-32 5c9 4 10-3 16-2"/>
+    <circle cx="84" cy="64" r="2" fill="#a978a7"/><circle cx="63" cy="65" r="1.7" fill="#a978a7"/>
+  </g>
+</svg>

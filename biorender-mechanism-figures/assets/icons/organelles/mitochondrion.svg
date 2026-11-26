@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Mitochondrion</title>
+  <g id="outer-membrane">
+    <path fill="#ebb2b1" stroke="#985f76" stroke-width="2.6" d="M12 79c0-18 14-32 29-39 14-6 24-5 35-12 17-10 36-6 40 8 7 20-11 41-28 51-15 8-27 8-41 16-16 8-35-3-35-24Z"/>
+    <path fill="none" stroke="#f8d4c8" stroke-width="2.8" stroke-linecap="round" d="M22 67c5-10 15-16 24-20m55-19 5 2"/>
+  </g>
+  <g id="matrix-and-inner-membrane">
+    <path fill="#f9d9ce" stroke="#ae6b82" stroke-width="2.5" d="M22 77c1-13 12-24 26-28 13-4 22-5 34-12 11-7 23-6 26 3 4 12-8 29-22 38-13 8-29 10-42 17-12 6-23-5-22-18Z"/>
+  </g>
+  <g id="cristae" fill="none" stroke="#ad647b" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 57c-2 7 4 11 12 12 7 2 6 9 1 13m4-34c-2 6 3 9 11 11 7 2 8 10 2 16m5-34c-1 5 3 8 10 9 8 1 10 8 4 15m5-32c-1 4 2 6 7 8 5 2 6 6 3 10"/>
+  </g>
+</svg>

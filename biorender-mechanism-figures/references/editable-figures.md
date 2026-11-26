@@ -4,7 +4,7 @@
 
 Plan the scientific story, then list the distinct visual assets it needs. Match each entry to an existing icon, a variant, or a new drawing. Use one standalone file for multiple instances of the same icon. For a two-state comparison, keep the underlying silhouette consistent and vary only what communicates the state. Use labels for distinctions the morphology cannot convey.
 
-- Look in `assets/icons/cells/`, `assets/icons/equipment/`, and `assets/icons/tumor-immune/` within the installed skill. The last directory includes tumor cells, monocytes, CD8+ T cells and macrophages, vessels, DNA, signals and checkpoint components.
+- Browse the installed skill's `assets/icons/` by category. `anatomy/` contains organs, `organelles/` contains subcellular structures, and `cells/` and `equipment/` contain general-purpose cell and equipment icons. Use `tumor-immune/` for tumor cells, immune states, vessels, DNA, signals, and checkpoint components.
 - Copy the used icons and write new icons into the writable figure project's `icons/` directory. Use lower-case filenames such as `bile-duct.svg`. Each asset should have a `viewBox="0 0 128 128"`, a `<title>`, a transparent canvas, and native SVG shapes organized in meaningful groups. Keep molecule and cell-type labels in the figure layout.
 - Draw figure-specific connections, compartment geometry, titles, labels, and legend swatches in the layout as native paths, shapes, or text. Distinguish each repeated instance with a unique ID. Follow [the visual guide](visual-language.md) and use the user's language for labels unless a reference or other instruction specifies it.
 

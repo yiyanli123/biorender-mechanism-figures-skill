@@ -12,11 +12,11 @@
 
 ## 可编辑 SVG 图标
 
-Skill 内置 16 枚通用细胞和器材图标，以及 14 枚肿瘤免疫图标。每枚图标均为透明背景，内部部件按矢量对象分组，可以单独编辑。
+素材库现有 **42 枚可编辑的 SVG 图标**，涵盖器官、细胞器、细胞、肿瘤免疫和实验器材。下方图鉴展示了 12 枚新素材。每枚图标都是透明背景，内部部件可以单独选中、改色或删除。
 
-[![16 枚生物医学 SVG 图标预览](./assets/biomedical-svg-icons-preview.png)](./gallery/icons.md)
+[![可编辑 SVG 图鉴，展示 12 枚器官、细胞器和实验器材图标](./assets/editable-svg-icon-atlas.png)](./gallery/icons.md)
 
-[浏览图标目录并打开独立 SVG 文件](./gallery/icons.md)。
+[浏览全部 42 枚图标并打开可编辑 SVG 文件](./gallery/icons.md)。
 
 ## 可编辑机制图
 
